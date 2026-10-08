@@ -359,7 +359,7 @@ Never describe a project as innovative, groundbreaking, or award-winning without
 
 Scheme A is the selected design for the website. The home page lives at the top level as index.html; comparison pages and scheme folders are removed.
 
-A small ruled masthead leads into a two-column introduction: oversized Cormorant Garamond headline on the left, DM Sans description and cyan Projects action on the right. The headline reads “ideas take shape” in lowercase, with a line break after “ideas”. The description reads “Architectural drawings, physical models, and sketches.”
+A small ruled masthead leads into a two-column introduction: oversized Cormorant Garamond headline on the left, DM Sans description and cyan Projects action on the right. The headline reads “Ideas take shape.” with a capital I, a final period, and a line break after “Ideas”. The description reads “Architectural drawings, physical models, and sketches.”
 
 The home gallery uses twelve columns. The supplied physical model photograph spans columns 1–7; the drawing spans 9–12 with a 96px offset; the sketch spans 2–6 in the next row. Captions are 12px. The introduction uses 64px top and 56px bottom spacing. On mobile the 52px headline, copy and gallery stack in reading order, with 20px margins and 32px gallery spacing.
 
@@ -368,3 +368,9 @@ Projects uses a consistent two-column gallery, stacking on phones. Project names
 Log-in uses the same white, serif editorial language with labelled email/password fields, cyan submit button, sign-up switch and accessible status messages. Protected page content stays hidden until the Supabase session check succeeds. The public project URL and publishable key must be supplied in config.js. Missing configuration produces a clear setup message on login.html. Authentication is not simulated.
 
 The mobile header uses an accessible Menu button. All authenticated pages include Home, Projects, About and Log Out. Keyboard focus is visible. Share metadata uses the portfolio identity; a share image remains pending a supplied or approved asset.
+
+## Approved portfolio introduction
+
+Display this introduction beside Margo Medeiros in the home page introduction section:
+
+My work explores how ideas take shape through architectural drawings, physical models, and sketches. This portfolio brings together studies of space and form, showing both the process of developing an idea and the work that emerges from it.
