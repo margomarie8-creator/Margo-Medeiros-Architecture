@@ -408,7 +408,7 @@ The website is done when:
 - [ ] Missing images use labelled grey placeholders.
 - [ ] All internal links are relative.
 - [ ] Every page has a title and one-line description.
-- [ ] A share image is configured.
+- [x] A share image is configured.
 - [ ] The site is published from GitHub to Vercel.
 - [ ] The live link opens in a new tab or window.
 
@@ -466,8 +466,12 @@ I’m Margo Medeiros, a first-year student at the University of Miami pursuing a
 Architectural interests:
 I’m still discovering which areas of architecture I’m most drawn to. Each project gives me a chance to explore different approaches, learn how spaces relate to their surroundings, and develop my own perspective as a designer.
 
-Retain the portrait placeholder until a portrait is supplied. This draft is local only, pending user review.
+Retain the portrait placeholder until a portrait is supplied. This biography and interests text was approved and published.
 
 ## Projects card assignment labels
 
 Describe the cover images in the small labels on Projects cards: “Physical model”, “Urban plan”, and “Site photograph”. Keep project titles below the labels. Image alt text describes the corresponding cover subject: the Between House model, St. Augustine urban plan, or South Greenway Drive site photograph.
+
+## Approved share images
+
+Home, Projects, About and Login use images/physical-model.png. Between House uses images/between-house/model-terraces.png. Project 2 uses images/project-2/map-cover.jpg. Street Smarts uses images/project-3/site-photograph.jpg. Every page supplies an absolute HTTPS og:image URL, descriptive og:image:alt and image dimensions. These metadata images do not alter visible page layouts.

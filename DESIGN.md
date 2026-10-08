@@ -367,7 +367,7 @@ Projects uses a consistent two-column gallery, stacking on phones. Project names
 
 Log-in uses the same white, serif editorial language with labelled email/password fields, cyan submit button, sign-up switch and accessible status messages. Protected page content stays hidden until the Supabase session check succeeds. The public project URL and publishable key must be supplied in config.js. Missing configuration produces a clear setup message on login.html. Authentication is not simulated.
 
-The mobile header uses an accessible Menu button. All authenticated pages include Home, Projects, About and Log Out. Keyboard focus is visible. Share metadata uses the portfolio identity; a share image remains pending a supplied or approved asset.
+The mobile header uses an accessible Menu button. All authenticated pages include Home, Projects, About and Log Out. Keyboard focus is visible. Share metadata uses the portfolio identity; share images use the approved model photo and project covers.
 
 ## Approved portfolio introduction
 
@@ -408,3 +408,7 @@ Keep the restrained editorial layout and portrait placeholder. The biography inc
 ## Projects card assignment labels
 
 Describe the cover images in the small labels on Projects cards: “Physical model”, “Urban plan”, and “Site photograph”. Keep project titles below the labels. Image alt text describes the corresponding cover subject: the Between House model, St. Augustine urban plan, or South Greenway Drive site photograph.
+
+## Approved share images
+
+Home, Projects, About and Login use images/physical-model.png. Between House uses images/between-house/model-terraces.png. Project 2 uses images/project-2/map-cover.jpg. Street Smarts uses images/project-3/site-photograph.jpg. Every page supplies an absolute HTTPS og:image URL, descriptive og:image:alt and image dimensions. These metadata images do not alter visible page layouts.
