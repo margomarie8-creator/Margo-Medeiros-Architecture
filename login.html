@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Log in — Margo Medeiros Architecture</title>
+<meta name="description" content="Log in or create an account to view the architecture portfolio.">
+<meta property="og:title" content="Log in — Margo Medeiros Architecture"><meta property="og:description" content="Log in or create an account to view the architecture portfolio."><meta property="og:type" content="website">
+<!-- Add og:image after a share asset is supplied or approved. -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script defer src="config.js"></script><script defer src="auth.js"></script><script defer src="script.js"></script>
+</head><body data-protected="false">
+<a class="skip" href="#main">Skip to content</a><header><a class="brand" href="login.html">Margo Medeiros<span>Architecture</span></a></header><main id="main"><div class="login-main"><section><h1 id="auth-heading">Welcome<br>to the portfolio.</h1><p>Log in to view Margo Medeiros Architecture.</p></section><form id="auth-form" class="login-form"><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required></div><button id="submit-auth" class="cta" type="submit">Log in</button><button id="switch-auth" class="switch" type="button">Create an account</button><p id="auth-status" class="status" role="status" aria-live="polite"></p><p class="login-note" id="confirmation-note" hidden>If email confirmation is enabled, confirm your email before logging in. Passwords must have at least 6 characters.</p></form></div><noscript><p>JavaScript is required to log in.</p></noscript></main><footer><span>Margo Medeiros Architecture</span><span class="auth-error" id="logout-status" role="status"></span></footer>
+</body></html>
