@@ -381,7 +381,7 @@ projects.html shows a clickable Between House card with a full model photograph,
 
 ## Home preview destinations
 
-Each home figure is a keyboard-accessible link including its caption: Physical model opens Between House; Drawing opens Project 2; Sketch opens Project 3. Use a cyan caption underline on hover and visible keyboard focus. Project 3 presents Street Smarts from the supplied ARC 111 portfolio. Project 2 uses the supplied ARC 101 documentation, titled Analysis of Urban Form and Tracing Exercises, with a drawing preview and full-sheet gallery. Both projects have matching cards on Projects and protected detail pages with Back to Projects links. Preserve the balanced home gallery sizing.
+Each home figure is a keyboard-accessible link including its caption: Physical model opens Between House; Drawing opens Project 2; Photograph opens Project 3. Use a cyan caption underline on hover and visible keyboard focus. Project 3 presents Street Smarts from the supplied ARC 111 portfolio. Project 2 uses the supplied ARC 101 documentation, titled Analysis of Urban Form and Tracing Exercises, with a drawing preview and full-sheet gallery. Both projects have matching cards on Projects and protected detail pages with Back to Projects links. Preserve the balanced home gallery sizing.
 
 ## Project 2 presentation
 
@@ -394,3 +394,5 @@ Use the ARC 111 portfolio for its title and reflection. Present site photography
 ## Overall display scale
 
 Apply a uniform 80% display scale across all pages, including log-in, so typography, images and spacing appear 20% smaller. Preserve responsive layouts and image proportions.
+
+The home page Project 3 caption reads “Photograph” to match the Street Smarts site photo.

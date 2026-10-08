@@ -437,3 +437,5 @@ Source: Medeiros_Margo_StreetSmarts.pdf. Course: ARC 111, Visualization I, Unive
 ## Site display scale
 
 Render all pages at 80% of their previous visual scale using shared CSS, including login.html. Images must remain proportional and layouts responsive.
+
+The home page Project 3 caption reads “Photograph” to match the Street Smarts site photo.
