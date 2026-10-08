@@ -109,7 +109,6 @@ Content:
 - Short project description, if supplied.
 - Architectural drawings.
 - Physical model photography.
-- Digital renderings.
 - Sketches.
 
 Layout:
@@ -284,8 +283,6 @@ Examples:
 [ADD: photograph of architectural model]
 
 [ADD: architectural floor plan]
-
-[ADD: digital rendering of project]
 
 [ADD: architectural sketch]
 

@@ -3,7 +3,7 @@
 
 ## Concept
 
-Margo Medeiros Architecture is an artistic yet refined digital portfolio that presents architectural work as a curated editorial exhibition, balancing experimental compositions with professional clarity. A monochromatic visual system punctuated by electric cyan creates a bold identity while allowing drawings, models, renderings, and sketches to remain the focus.
+Margo Medeiros Architecture is an artistic yet refined digital portfolio that presents architectural work as a curated editorial exhibition, balancing experimental compositions with professional clarity. A monochromatic visual system punctuated by electric cyan creates a bold identity while allowing drawings, models, and sketches to remain the focus.
 
 ## References and Influences
 
@@ -215,7 +215,6 @@ The portfolio supports:
 - Architectural plans.
 - Sections and elevations.
 - Physical model photography.
-- Digital models and renderings.
 - Sketches and design studies.
 
 Home:
@@ -362,7 +361,7 @@ Scheme A is the selected design for the website. The home page lives at the top 
 
 A small ruled masthead leads into a two-column introduction: oversized Cormorant Garamond headline on the left, DM Sans description and cyan Projects action on the right. The headline reads “Architecture, in perspective.” The description reads “Architectural drawings, physical models, and sketches.”
 
-The home gallery uses twelve columns. The supplied physical model photograph spans columns 1–7; the drawing spans 9–12 with a 96px offset; the rendering spans 2–6; the sketch spans 8–11 with a 64px offset. Captions are 12px. The introduction uses 64px top and 56px bottom spacing. On mobile the 52px headline, copy and gallery stack in reading order, with 20px margins and 32px gallery spacing.
+The home gallery uses twelve columns. The supplied physical model photograph spans columns 1–7; the drawing spans 9–12 with a 96px offset; the sketch spans 2–6 in the next row. Captions are 12px. The introduction uses 64px top and 56px bottom spacing. On mobile the 52px headline, copy and gallery stack in reading order, with 20px margins and 32px gallery spacing.
 
 Projects uses a consistent two-column gallery, stacking on phones. Project names and descriptions remain explicitly labelled placeholders. About uses a portrait placeholder beside labelled biography and architectural-interest placeholders. No credentials or contact details are invented.
 
