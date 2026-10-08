@@ -385,7 +385,7 @@ Each home figure is a keyboard-accessible link including its caption: Physical m
 
 ## Project 2 presentation
 
-Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original title, course, semester and faculty as documented; use concise introductions derived from the two written reflections. Display urban-form sheets and the tracing sheet with their bottom student, faculty and assignment footer cropped from every web image. Keep the drawings proportional and provide links to the original PDF. The home Drawing preview and Projects card use the urban-form drawing on portfolio page 3, rendered as a drawing-only crop that excludes all PDF margins, page numbers and documentation footer, then proportionally fitted to its preview frame. Never stretch the drawing; crop the footer from detail images as well. Preserve the balanced home sizing.
+Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original title, course, semester and faculty as documented; use both complete original written reflections verbatim. Display urban-form sheets and the tracing sheet with their bottom student, faculty and assignment footer cropped from every web image. Keep the drawings proportional and provide links to the original PDF. The home Drawing preview and Projects card use the urban-form drawing on portfolio page 3, rendered as a drawing-only crop that excludes all PDF margins, page numbers and documentation footer, then proportionally fitted to its preview frame. Never stretch the drawing; crop the footer from detail images as well. Preserve the balanced home sizing.
 
 ## Project 3 — Street Smarts
 
@@ -396,3 +396,7 @@ Use the ARC 111 portfolio for its title and reflection. Present site photography
 Apply a uniform 80% display scale across all pages, including log-in, so typography, images and spacing appear 20% smaller. Preserve responsive layouts and image proportions.
 
 The home page Project 3 caption reads “Photograph” to match the Street Smarts site photo.
+
+## Project writing policy
+
+Projects 2 and 3 use all original description text exactly as written, including spelling and punctuation. Remove PDF line-wrap hyphenation only when reflowing paragraphs. Between House is explicitly permitted to remain paraphrased. Do not add generated descriptive summaries to Projects 2 or 3.
