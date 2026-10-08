@@ -381,4 +381,8 @@ projects.html shows a clickable Between House card with a full model photograph,
 
 ## Home preview destinations
 
-Each home figure is a keyboard-accessible link including its caption: Physical model opens Between House; Drawing opens Project 2; Sketch opens Project 3. Use a cyan caption underline on hover and visible keyboard focus. Project 2 and Project 3 are explicitly marked placeholders with matching cards on Projects and protected detail pages with Back to Projects links. Preserve the balanced home gallery sizing.
+Each home figure is a keyboard-accessible link including its caption: Physical model opens Between House; Drawing opens Project 2; Sketch opens Project 3. Use a cyan caption underline on hover and visible keyboard focus. Project 3 remains explicitly marked as a placeholder. Project 2 uses the supplied ARC 101 documentation, titled Analysis of Urban Form and Tracing Exercises, with a drawing preview and full-sheet gallery. The remaining placeholder is with matching cards on Projects and protected detail pages with Back to Projects links. Preserve the balanced home gallery sizing.
+
+## Project 2 presentation
+
+Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original title, course, semester and faculty as documented; use concise introductions derived from the two written reflections. Display uncropped urban-form sheets and the tracing sheet with links to the original PDF. The home Drawing preview and Projects card use the urban-form drawing on portfolio page 3, contained without cropping. Preserve the balanced home sizing.

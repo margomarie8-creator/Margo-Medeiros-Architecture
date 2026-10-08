@@ -426,6 +426,10 @@ Assets: IMG_9082.png is the leading photo; IMG_9090.png, IMG_9078.png and IMG_90
 
 All four original PNG photographs exceed 500 KB (approximately 2.15, 1.84, 2.05 and 1.51 MB). Preserve the original detail. All three original PDFs are below 500 KB. The full-size drawing PDF links open in a new tab. No dates, locations, dimensions, material specifications or unverified design intentions are added.
 
-## Projects 2 and 3 — placeholders
+## Project 2 — Analysis of Urban Form and Tracing Exercises
 
-Home Physical model links to between-house.html, Drawing to project-2.html, and Sketch to project-3.html. Include Projects 2 and 3 in the Projects gallery. Their temporary names are Project 2 and Project 3; clearly label missing titles, descriptions and images. Project 2 is allocated Drawing; Project 3 is allocated Sketch. Both pages require the existing Supabase gate, navigation, Log Out and a Back to Projects link. No project facts or images have been supplied for them.
+Use the supplied seven-page ARC 101 portfolio as the source of content. Course: ARC 101: Design I, University of Miami School of Architecture. Semester: Fall 2026. Faculty: Crystal Torres. Present urban-form analysis of St. Augustine and tracing exercises together on project-2.html. Use written reflections as the source for the web descriptions and full-sheet previews from pages 3, 4, 5 and 7. Offer the unchanged original PDF. Replace the home Drawing placeholder and Project 2 card with the page 3 drawing, maintaining a contained image and existing link destination. Keep authentication and Log Out.
+
+## Project 3 — placeholder
+
+Home Sketch opens project-3.html. Keep the Project 3 card and protected page clearly marked placeholders until content is supplied.
