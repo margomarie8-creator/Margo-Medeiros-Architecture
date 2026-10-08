@@ -363,7 +363,7 @@ A small ruled masthead leads into a two-column introduction: oversized Cormorant
 
 The home gallery uses three equal columns on desktop, with 24px gaps and aligned tops and captions. Each preview uses a 3:4 frame capped at 420px tall; the complete physical model photograph remains visible without cropping. Drawing and sketch placeholders use the same frame proportions. On phones the previews stack and remain centered, capped at 315px wide. Captions are 12px. The introduction uses 64px top and 56px bottom spacing. On mobile the 52px headline, copy and gallery stack in reading order, with 20px margins and 32px gallery spacing.
 
-Projects uses a consistent two-column gallery, stacking on phones. Project names and descriptions remain explicitly labelled placeholders. About uses a portrait placeholder beside labelled biography and architectural-interest placeholders. No credentials or contact details are invented.
+Projects uses a consistent two-column gallery, stacking on phones. Project names and descriptions remain explicitly labelled placeholders. About uses a portrait placeholder beside a short first-person biography and a note about discovering architectural interests. No credentials or contact details are invented.
 
 Log-in uses the same white, serif editorial language with labelled email/password fields, cyan submit button, sign-up switch and accessible status messages. Protected page content stays hidden until the Supabase session check succeeds. The public project URL and publishable key must be supplied in config.js. Missing configuration produces a clear setup message on login.html. Authentication is not simulated.
 
@@ -400,3 +400,7 @@ The home page Project 3 caption reads “Photograph” to match the Street Smart
 ## Project writing policy
 
 Projects 2 and 3 use all original description text exactly as written, including spelling and punctuation. Remove PDF line-wrap hyphenation only when reflowing paragraphs. Between House is explicitly permitted to remain paraphrased. Do not add generated descriptive summaries to Projects 2 or 3.
+
+## About page draft for review
+
+Keep the restrained editorial layout and portrait placeholder. The biography includes the user-supplied Boston background, first-year University of Miami status and Bachelor of Architecture studies. Skills are grounded in supplied portfolio work, presented as developing skills rather than expert credentials. Architectural interests remain open and exploratory.

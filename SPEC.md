@@ -457,3 +457,13 @@ The tracing exercises assigned each class were exceedingly beneficial in several
 ### Original Street Smarts text
 
 The true framework and method of division yet connection throughout a city, the street, should be deeply explored and understood by every architect. This project fostered my first site visit and allowed me to learn the purpose of them through experience. As I walked along the sidewalk on South Greenway Drive, in Coral Gables, Florida, I made sketches and took in the way the space around me made me feel. Furthermore, I tried to understand which parts or collection of parts stimulated specific feelings. It was additionally usefulable to observe the landscape, climate, and community. Then, replicating a portion of the street in a model and a drawing highlighted the layeredness of a street. Learning how these layers---the street, the sidewalk, landscape, and more---work together to create something that flows together beautifully and seamlessly was incredible. The foundational provided by Street Smarts will prove important to an architect forever, making up some of the first steps in every project to come and prompting meaningful observation when engaging with new environments.
+
+## About page draft for review
+
+Biography:
+I’m Margo Medeiros, a first-year student at the University of Miami pursuing a Bachelor of Architecture. Originally from Boston, I’m developing my design skills through studio projects, drawing, and hands-on exploration. My work so far includes physical model making, hand drafting, field sketching, site observation, and AutoCAD drawings. I enjoy turning observations and ideas into work I can build, study, and refine.
+
+Architectural interests:
+I’m still discovering which areas of architecture I’m most drawn to. Each project gives me a chance to explore different approaches, learn how spaces relate to their surroundings, and develop my own perspective as a designer.
+
+Retain the portrait placeholder until a portrait is supplied. This draft is local only, pending user review.
