@@ -413,7 +413,7 @@ The website is done when:
 ## First supplied project — Between House
 
 House name: Between House.
-Assignment title: Jutaku House, as given by the user's professors.
+Assignment: Jutaku House, as given by the user's professors.
 
 Display a clickable Between House preview card on projects.html. Display the full project on between-house.html with a leading model photograph and the description below, followed by three additional model photographs and full-sheet floor plans, elevations and sections. Show the house name prominently and label the assignment separately. Preserve original image proportions without cropping or filters. Each drawing preview links to its original PDF for detailed viewing. Keep all project content behind the existing Supabase authentication gate. between-house.html requires authentication and a working Log Out control, including for direct .html navigation.
 
