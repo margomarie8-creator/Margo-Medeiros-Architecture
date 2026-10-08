@@ -407,4 +407,4 @@ Keep the restrained editorial layout and portrait placeholder. The biography inc
 
 ## Projects card assignment labels
 
-Display assignment names in the small labels on Projects cards: “Jutaku House · Assignment”, “Analysis of Urban Form and Tracing Exercises · Assignment”, and “Street Smarts · Assignment”. Replace the ARC course-code labels. Keep descriptive image alt text for accessibility.
+Describe the cover images in the small labels on Projects cards: “Physical model”, “Urban plan”, and “Site photograph”. Keep project titles below the labels. Image alt text describes the corresponding cover subject: the Between House model, St. Augustine urban plan, or South Greenway Drive site photograph.
