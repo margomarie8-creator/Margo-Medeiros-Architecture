@@ -94,7 +94,7 @@ Do not invent project titles or descriptions.
 
 Until actual content is supplied, use clearly labelled placeholders.
 
-Home page physical model image: use the supplied IMG_9078.png, saved as images/physical-model.png, in the first Selected work figure. Preserve its full 3:4 proportions without cropping or filters. Keep the caption “Physical model”. Alt text: “White architectural model with exposed staircases and a pitched roof against a dark background.” The source PNG is 2,049,321 bytes (over 500 KB); retain the original image detail.
+Home page physical model image: use the supplied IMG_9078.png, saved as images/physical-model.png, in the first Selected work figure. Preserve its full 3:4 proportions without cropping or filters. Present the three home previews in equal desktop columns with aligned tops and captions. Use matching 3:4 frames capped at 420px tall, showing the full model image without cropping. Stack and center the previews on phones, capped at 315px wide. Keep the caption “Physical model”. Alt text: “White architectural model with exposed staircases and a pitched roof against a dark background.” The source PNG is 2,049,321 bytes (over 500 KB); retain the original image detail.
 
 ## Page 3: Projects
 

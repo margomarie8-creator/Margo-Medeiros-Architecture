@@ -361,7 +361,7 @@ Scheme A is the selected design for the website. The home page lives at the top 
 
 A small ruled masthead leads into a two-column introduction: oversized Cormorant Garamond headline on the left, DM Sans description and cyan Projects action on the right. The headline reads “Ideas take shape.” with a capital I, a final period, and a line break after “Ideas”. The description reads “Architectural drawings, physical models, and sketches.”
 
-The home gallery uses twelve columns. The supplied physical model photograph spans columns 1–7; the drawing spans 9–12 with a 96px offset; the sketch spans 2–6 in the next row. Captions are 12px. The introduction uses 64px top and 56px bottom spacing. On mobile the 52px headline, copy and gallery stack in reading order, with 20px margins and 32px gallery spacing.
+The home gallery uses three equal columns on desktop, with 24px gaps and aligned tops and captions. Each preview uses a 3:4 frame capped at 420px tall; the complete physical model photograph remains visible without cropping. Drawing and sketch placeholders use the same frame proportions. On phones the previews stack and remain centered, capped at 315px wide. Captions are 12px. The introduction uses 64px top and 56px bottom spacing. On mobile the 52px headline, copy and gallery stack in reading order, with 20px margins and 32px gallery spacing.
 
 Projects uses a consistent two-column gallery, stacking on phones. Project names and descriptions remain explicitly labelled placeholders. About uses a portrait placeholder beside labelled biography and architectural-interest placeholders. No credentials or contact details are invented.
 
