@@ -76,7 +76,7 @@ Introduce the portfolio and create a memorable first impression.
 
 Content:
 - Margo Medeiros Architecture identity.
-- Large editorial introduction.
+- Large editorial introduction with the headline “ideas take shape” in lowercase.
 - Featured architectural imagery.
 - Selected project previews.
 - Links to the Projects page.
