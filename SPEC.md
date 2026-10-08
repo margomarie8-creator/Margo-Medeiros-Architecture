@@ -23,6 +23,7 @@ Required pages:
 2. index.html
 3. projects.html
 4. about.html
+5. between-house.html
 
 index.html must be located at the top level of the website folder.
 
@@ -122,7 +123,7 @@ Do not invent projects, project dates, locations, dimensions, materials, or desc
 
 Use placeholders until actual content is available.
 
-Individual project pages are not required in the initial version.
+Each supplied project has a clickable preview card leading to its protected detail page. Between House opens at between-house.html, which includes a Back to Projects link.
 
 ## Page 4: About
 
@@ -414,7 +415,7 @@ The website is done when:
 House name: Between House.
 Assignment title: Jutaku House, as given by the user's professors.
 
-Display this project on projects.html with a leading model photograph and the description below, followed by three additional model photographs and full-sheet floor plans, elevations and sections. Show the house name prominently and label the assignment separately. Preserve original image proportions without cropping or filters. Each drawing preview links to its original PDF for detailed viewing. Keep all project content behind the existing Supabase authentication gate. No separate project page is needed.
+Display a clickable Between House preview card on projects.html. Display the full project on between-house.html with a leading model photograph and the description below, followed by three additional model photographs and full-sheet floor plans, elevations and sections. Show the house name prominently and label the assignment separately. Preserve original image proportions without cropping or filters. Each drawing preview links to its original PDF for detailed viewing. Keep all project content behind the existing Supabase authentication gate. between-house.html requires authentication and a working Log Out control, including for direct .html navigation.
 
 Description (derived from the previous jury discussion and supplied work):
 Between House is a narrow, multilevel dwelling with an open stair volume, projecting terraces, and a pitched roof. Physical model studies and AutoCAD plans, elevations, and sections document its spatial organization.
