@@ -8,7 +8,7 @@ Name: Margo Medeiros Architecture
 Type: Personal architecture portfolio.
 
 Purpose:
-Present architectural drawings, physical models, digital renderings, and sketches in a professional yet artistic online portfolio.
+Present architectural drawings, physical models, and sketches in a professional yet artistic online portfolio.
 
 Primary audience:
 People interested in viewing Margo Medeiros's architectural work, including potential academic and professional reviewers.

@@ -360,7 +360,7 @@ Never describe a project as innovative, groundbreaking, or award-winning without
 
 Scheme A is the selected design for the website. The home page lives at the top level as index.html; comparison pages and scheme folders are removed.
 
-A small ruled masthead leads into a two-column introduction: oversized Cormorant Garamond headline on the left, DM Sans description and cyan Projects action on the right. The headline reads “Architecture, in perspective.” The description reads “Architectural drawings, physical models, digital renderings, and sketches.”
+A small ruled masthead leads into a two-column introduction: oversized Cormorant Garamond headline on the left, DM Sans description and cyan Projects action on the right. The headline reads “Architecture, in perspective.” The description reads “Architectural drawings, physical models, and sketches.”
 
 The home gallery uses twelve columns. The model placeholder spans columns 1–7; the drawing spans 9–12 with a 96px offset; the rendering spans 2–6; the sketch spans 8–11 with a 64px offset. Captions are 12px. The introduction uses 64px top and 56px bottom spacing. On mobile the 52px headline, copy and gallery stack in reading order, with 20px margins and 32px gallery spacing.
 
