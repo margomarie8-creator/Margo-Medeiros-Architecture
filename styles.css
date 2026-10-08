@@ -26,3 +26,5 @@ html{zoom:.8}
 
 /* Street Smarts covers focus on the right side; gallery retains the full drawing. */
 .gallery .street-cover,.project-card .street-cover{object-fit:cover;object-position:right center}.case-study .street-cover{aspect-ratio:3/4;object-fit:cover;object-position:right center}
+
+.map-frame .drawing-preview,.project-card .map-frame .drawing-preview{transform:none;object-position:center}.gallery .street-cover,.project-card .street-cover,.case-study .street-cover{object-position:center}

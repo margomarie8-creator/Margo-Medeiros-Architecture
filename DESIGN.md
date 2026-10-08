@@ -385,11 +385,11 @@ Each home figure is a keyboard-accessible link including its caption: Physical m
 
 ## Project 2 presentation
 
-Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original title, course, semester and faculty as documented; use concise introductions derived from the two written reflections. Display urban-form sheets and the tracing sheet with their bottom student, faculty and assignment footer cropped from every web image. Keep the drawings proportional and provide links to the original PDF. The home Drawing preview and Projects card use the urban-form drawing on portfolio page 3, proportionally enlarged and cropped within its preview frame to remove sheet margins and fill the box. Never stretch the drawing; crop the footer from detail images as well. Preserve the balanced home sizing.
+Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original title, course, semester and faculty as documented; use concise introductions derived from the two written reflections. Display urban-form sheets and the tracing sheet with their bottom student, faculty and assignment footer cropped from every web image. Keep the drawings proportional and provide links to the original PDF. The home Drawing preview and Projects card use the urban-form drawing on portfolio page 3, rendered as a drawing-only crop that excludes all PDF margins, page numbers and documentation footer, then proportionally fitted to its preview frame. Never stretch the drawing; crop the footer from detail images as well. Preserve the balanced home sizing.
 
 ## Project 3 — Street Smarts
 
-Use the ARC 111 portfolio for its title and reflection. Present site photography, field sketches, model photographs and the final drawing in an editorial gallery. Crop document margins and student/faculty/assignment footers from rendered images without stretching. Use the final site drawing as the home Sketch preview, Projects card cover, and Street Smarts opening image, cropped to focus on the right side of the drawing with proportional cover scaling. Keep the full final drawing in the project gallery. Link to the unchanged original PDF.
+Use the ARC 111 portfolio for its title and reflection. Present site photography, field sketches, model photographs and the final drawing in an editorial gallery. Crop document margins and student/faculty/assignment footers from rendered images without stretching. Use the site photograph as the home preview, Projects card cover, and Street Smarts opening image, proportionally fitted with centered cover cropping. Keep the full final drawing in the project gallery. Link to the unchanged original PDF.
 
 ## Overall display scale
 
