@@ -23,3 +23,6 @@
 
 /* Uniform site display scale requested by the portfolio owner. */
 html{zoom:.8}
+
+/* Street Smarts covers focus on the right side; gallery retains the full drawing. */
+.gallery .street-cover,.project-card .street-cover{object-fit:cover;object-position:right center}.case-study .street-cover{aspect-ratio:3/4;object-fit:cover;object-position:right center}
