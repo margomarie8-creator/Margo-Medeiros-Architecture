@@ -374,3 +374,7 @@ The mobile header uses an accessible Menu button. All authenticated pages includ
 Display this introduction beside Margo Medeiros in the home page introduction section:
 
 My work explores how ideas take shape through architectural drawings, physical models, and sketches. This portfolio brings together studies of space and form, showing both the process of developing an idea and the work that emerges from it.
+
+## Between House project presentation
+
+The first supplied project replaces the generic project placeholders on projects.html. A serif Between House heading is paired with the supporting label “Jutaku House · Assignment title”. A two-column opening presents a full model photograph and concise project introduction; a three-column row presents the other model views. Below, floor plans, elevations and sections each receive a large uncropped sheet preview and an original PDF link. The layout becomes a single column on mobile. Use the existing white background, black typography, subtle rules and cyan action accent. The three-column photo row is specific to views within this project. A future project index can retain the two-column gallery described above.

@@ -408,3 +408,17 @@ The website is done when:
 - [ ] A share image is configured.
 - [ ] The site is published from GitHub to Vercel.
 - [ ] The live link opens in a new tab or window.
+
+## First supplied project — Between House
+
+House name: Between House.
+Assignment title: Jutaku House, as given by the user's professors.
+
+Display this project on projects.html with a leading model photograph and the description below, followed by three additional model photographs and full-sheet floor plans, elevations and sections. Show the house name prominently and label the assignment separately. Preserve original image proportions without cropping or filters. Each drawing preview links to its original PDF for detailed viewing. Keep all project content behind the existing Supabase authentication gate. No separate project page is needed.
+
+Description (derived from the previous jury discussion and supplied work):
+Between House is a narrow, multilevel dwelling with an open stair volume, projecting terraces, and a pitched roof. Physical model studies and AutoCAD plans, elevations, and sections document its spatial organization.
+
+Assets: IMG_9082.png is the leading photo; IMG_9090.png, IMG_9078.png and IMG_9095.png are additional model views. Save them in images/between-house/ under descriptive filenames. Keep the existing home page photo unchanged. The supplied jutaku floor plans.pdf, jutaku elevations.pdf and jutaku sections.pdf are stored unchanged in the same project asset directory, alongside uncropped PNG previews of their single drawing sheets.
+
+All four original PNG photographs exceed 500 KB (approximately 2.15, 1.84, 2.05 and 1.51 MB). Preserve the original detail. All three original PDFs are below 500 KB. The full-size drawing PDF links open in a new tab. No dates, locations, dimensions, material specifications or unverified design intentions are added.
