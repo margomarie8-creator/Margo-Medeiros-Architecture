@@ -385,4 +385,4 @@ Each home figure is a keyboard-accessible link including its caption: Physical m
 
 ## Project 2 presentation
 
-Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original title, course, semester and faculty as documented; use concise introductions derived from the two written reflections. Display uncropped urban-form sheets and the tracing sheet with links to the original PDF. The home Drawing preview and Projects card use the urban-form drawing on portfolio page 3, contained without cropping. Preserve the balanced home sizing.
+Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original title, course, semester and faculty as documented; use concise introductions derived from the two written reflections. Display uncropped urban-form sheets and the tracing sheet with links to the original PDF. The home Drawing preview and Projects card use the urban-form drawing on portfolio page 3, proportionally enlarged and cropped within its preview frame to remove sheet margins and fill the box. Never stretch the drawing; keep the original full sheets on the detail page. Preserve the balanced home sizing.
