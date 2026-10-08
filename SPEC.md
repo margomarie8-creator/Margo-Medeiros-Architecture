@@ -24,6 +24,8 @@ Required pages:
 3. projects.html
 4. about.html
 5. between-house.html
+6. project-2.html
+7. project-3.html
 
 index.html must be located at the top level of the website folder.
 
@@ -423,3 +425,7 @@ Between House is a narrow, multilevel dwelling with an open stair volume, projec
 Assets: IMG_9082.png is the leading photo; IMG_9090.png, IMG_9078.png and IMG_9095.png are additional model views. Save them in images/between-house/ under descriptive filenames. Keep the existing home page photo unchanged. The supplied jutaku floor plans.pdf, jutaku elevations.pdf and jutaku sections.pdf are stored unchanged in the same project asset directory, alongside uncropped PNG previews of their single drawing sheets.
 
 All four original PNG photographs exceed 500 KB (approximately 2.15, 1.84, 2.05 and 1.51 MB). Preserve the original detail. All three original PDFs are below 500 KB. The full-size drawing PDF links open in a new tab. No dates, locations, dimensions, material specifications or unverified design intentions are added.
+
+## Projects 2 and 3 — placeholders
+
+Home Physical model links to between-house.html, Drawing to project-2.html, and Sketch to project-3.html. Include Projects 2 and 3 in the Projects gallery. Their temporary names are Project 2 and Project 3; clearly label missing titles, descriptions and images. Project 2 is allocated Drawing; Project 3 is allocated Sketch. Both pages require the existing Supabase gate, navigation, Log Out and a Back to Projects link. No project facts or images have been supplied for them.

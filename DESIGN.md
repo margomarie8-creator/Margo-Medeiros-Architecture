@@ -378,3 +378,7 @@ My work explores how ideas take shape through architectural drawings, physical m
 ## Between House project presentation
 
 projects.html shows a clickable Between House card with a full model photograph, house name, assignment label and View project cue. Clicking anywhere on the card opens between-house.html. The full presentation lives on that protected detail page with a Back to Projects link. A serif Between House heading is paired with the supporting label “Jutaku House · Assignment”. A two-column opening presents a full model photograph and concise project introduction; a three-column row presents the other model views. Below, floor plans, elevations and sections each receive a large uncropped sheet preview and an original PDF link. The layout becomes a single column on mobile. Use the existing white background, black typography, subtle rules and cyan action accent. The three-column photo row is specific to views within this project. The project index uses the two-column gallery described above, stacking on phones. Cards have visible keyboard focus and a subtle cyan underline on hover.
+
+## Home preview destinations
+
+Each home figure is a keyboard-accessible link including its caption: Physical model opens Between House; Drawing opens Project 2; Sketch opens Project 3. Use a cyan caption underline on hover and visible keyboard focus. Project 2 and Project 3 are explicitly marked placeholders with matching cards on Projects and protected detail pages with Back to Projects links. Preserve the balanced home gallery sizing.
