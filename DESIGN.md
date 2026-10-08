@@ -381,8 +381,12 @@ projects.html shows a clickable Between House card with a full model photograph,
 
 ## Home preview destinations
 
-Each home figure is a keyboard-accessible link including its caption: Physical model opens Between House; Drawing opens Project 2; Sketch opens Project 3. Use a cyan caption underline on hover and visible keyboard focus. Project 3 remains explicitly marked as a placeholder. Project 2 uses the supplied ARC 101 documentation, titled Analysis of Urban Form and Tracing Exercises, with a drawing preview and full-sheet gallery. The remaining placeholder is with matching cards on Projects and protected detail pages with Back to Projects links. Preserve the balanced home gallery sizing.
+Each home figure is a keyboard-accessible link including its caption: Physical model opens Between House; Drawing opens Project 2; Sketch opens Project 3. Use a cyan caption underline on hover and visible keyboard focus. Project 3 presents Street Smarts from the supplied ARC 111 portfolio. Project 2 uses the supplied ARC 101 documentation, titled Analysis of Urban Form and Tracing Exercises, with a drawing preview and full-sheet gallery. Both projects have matching cards on Projects and protected detail pages with Back to Projects links. Preserve the balanced home gallery sizing.
 
 ## Project 2 presentation
 
 Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original title, course, semester and faculty as documented; use concise introductions derived from the two written reflections. Display urban-form sheets and the tracing sheet with their bottom student, faculty and assignment footer cropped from every web image. Keep the drawings proportional and provide links to the original PDF. The home Drawing preview and Projects card use the urban-form drawing on portfolio page 3, proportionally enlarged and cropped within its preview frame to remove sheet margins and fill the box. Never stretch the drawing; crop the footer from detail images as well. Preserve the balanced home sizing.
+
+## Project 3 — Street Smarts
+
+Use the ARC 111 portfolio for its title and reflection. Present site photography, field sketches, model photographs and the final drawing in an editorial gallery. Crop document margins and student/faculty/assignment footers from rendered images without stretching. Use field sketches in the home Sketch preview and Projects card, proportionally contained. Link to the unchanged original PDF.
