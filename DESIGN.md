@@ -404,3 +404,7 @@ Projects 2 and 3 use all original description text exactly as written, including
 ## About page draft for review
 
 Keep the restrained editorial layout and portrait placeholder. The biography includes the user-supplied Boston background, first-year University of Miami status and Bachelor of Architecture studies. Skills are grounded in supplied portfolio work, presented as developing skills rather than expert credentials. Architectural interests remain open and exploratory.
+
+## Projects card assignment labels
+
+Display assignment names in the small labels on Projects cards: “Jutaku House · Assignment”, “Analysis of Urban Form and Tracing Exercises · Assignment”, and “Street Smarts · Assignment”. Replace the ARC course-code labels. Keep descriptive image alt text for accessibility.

@@ -467,3 +467,7 @@ Architectural interests:
 I’m still discovering which areas of architecture I’m most drawn to. Each project gives me a chance to explore different approaches, learn how spaces relate to their surroundings, and develop my own perspective as a designer.
 
 Retain the portrait placeholder until a portrait is supplied. This draft is local only, pending user review.
+
+## Projects card assignment labels
+
+Display assignment names in the small labels on Projects cards: “Jutaku House · Assignment”, “Analysis of Urban Form and Tracing Exercises · Assignment”, and “Street Smarts · Assignment”. Replace the ARC course-code labels. Keep descriptive image alt text for accessibility.
