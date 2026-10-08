@@ -432,4 +432,8 @@ Use the supplied seven-page ARC 101 portfolio as the source of content. Course: 
 
 ## Project 3 — Street Smarts
 
-Source: Medeiros_Margo_StreetSmarts.pdf. Course: ARC 111, Visualization I, University of Miami School of Architecture. Semester: Fall 2026. Faculty: Maria Cannavo. Site: South Greenway Drive, Coral Gables, Florida. Use the supplied reflection to describe observing street, sidewalk, landscape, climate and community through a site visit, sketches, a model and a drawing. Include the site photograph, field sketches, model photographs and final drawing. Crop documentation footers and excess page margins from web images without changing drawing proportions. Keep the original PDF available. Replace the home Sketch and Project 3 placeholders with field sketches linked to project-3.html. Preserve authentication, Log Out, Back to Projects and the balanced home layout.
+Source: Medeiros_Margo_StreetSmarts.pdf. Course: ARC 111, Visualization I, University of Miami School of Architecture. Semester: Fall 2026. Faculty: Maria Cannavo. Site: South Greenway Drive, Coral Gables, Florida. Use the supplied reflection to describe observing street, sidewalk, landscape, climate and community through a site visit, sketches, a model and a drawing. Include the site photograph, field sketches, model photographs and final drawing. Crop documentation footers and excess page margins from web images without changing drawing proportions. Keep the original PDF available. Use the final site drawing for the home Sketch preview, Project 3 card and detail-page opening image, all linked to project-3.html as appropriate. Keep the field sketches in the project gallery. Preserve authentication, Log Out, Back to Projects and the balanced home layout.
+
+## Site display scale
+
+Render all pages at 80% of their previous visual scale using shared CSS, including login.html. Images must remain proportional and layouts responsive.

@@ -389,4 +389,8 @@ Use the supplied ARC 101 Assignments 01 and 02 portfolio. Present the original t
 
 ## Project 3 — Street Smarts
 
-Use the ARC 111 portfolio for its title and reflection. Present site photography, field sketches, model photographs and the final drawing in an editorial gallery. Crop document margins and student/faculty/assignment footers from rendered images without stretching. Use field sketches in the home Sketch preview and Projects card, proportionally contained. Link to the unchanged original PDF.
+Use the ARC 111 portfolio for its title and reflection. Present site photography, field sketches, model photographs and the final drawing in an editorial gallery. Crop document margins and student/faculty/assignment footers from rendered images without stretching. Use the final site drawing as the home Sketch preview, Projects card cover, and Street Smarts opening image, proportionally contained. Link to the unchanged original PDF.
+
+## Overall display scale
+
+Apply a uniform 80% display scale across all pages, including log-in, so typography, images and spacing appear 20% smaller. Preserve responsive layouts and image proportions.
