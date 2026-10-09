@@ -475,3 +475,7 @@ Describe the cover images in the small labels on Projects cards: “Physical mod
 ## Approved share images
 
 Home, Projects, About and Login use images/physical-model.png. Between House uses images/between-house/model-terraces.png. Project 2 uses images/project-2/map-cover.jpg. Street Smarts uses images/project-3/site-photograph.jpg. Every page supplies an absolute HTTPS og:image URL, descriptive og:image:alt and image dimensions. These metadata images do not alter visible page layouts.
+
+## Production identity and domain
+
+The website identity is Margo Medeiros Architecture. Production URL: https://margo-medeiros-architecture-alpha.vercel.app/ . All share-image URLs use this hostname. Supabase Site URL and allowed authentication redirect URLs must use the new production domain; administrative settings must be confirmed separately.
