@@ -450,3 +450,7 @@ The user approved the following descriptions. Apply them only to the HTML meta n
 - between-house.html: Explore Between House, Margo Medeiros’s Jutaku House assignment, through physical model photographs and AutoCAD floor plans, elevations, and sections.
 - project-2.html: View Margo Medeiros’s analysis of St. Augustine’s urban form and architectural tracing exercises, with drawings and her written reflections.
 - project-3.html: Explore Margo Medeiros’s study of South Greenway Drive in Coral Gables through site photography, field sketches, model photographs, and a final drawing.
+
+## Approved heading hierarchy — BA6
+
+Every page keeps exactly one H1. Login, Projects and About headings stay unchanged. Home keeps H1 Ideas take shape. and H2 Selected work; rename its second H2 to Portfolio introduction. Between House uses H2 Model studies and Architectural drawings with H3 Floor plans, Elevations and Sections. Project 2 uses H2 Analysis of Urban Form and Tracing Exercises. Street Smarts uses H2 Project reflection and H2 Project documentation, with H3 Site photograph, Field sketches, Physical model and Final drawing under documentation. The user approved these labels. Preserve existing typography and all original description paragraphs.

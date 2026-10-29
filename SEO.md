@@ -6,7 +6,7 @@
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -119,9 +119,23 @@ Each page now has a user-approved one- or two-sentence description of its actual
 
 ### Change
 
+- **login.html** — No change; one H1.
+- **index.html** — One H1 retained. H2 “Selected work” retained; H2 “Margo Medeiros” renamed “Portfolio introduction”.
+- **projects.html** — No change; one H1 and H2 project-card titles.
+- **about.html** — No change; one H1 and H2 “About” and “Architectural interests”.
+- **between-house.html** — H2 “Model studies” and “Architectural drawings”; H3 “Floor plans”, “Elevations” and “Sections”.
+- **project-2.html** — H2 “Analysis of Urban Form” and “Tracing Exercises” follow the existing H1.
+- **project-3.html** — H2 “Project reflection” replaces repeated “Street Smarts”; new H2 “Project documentation” precedes H3 image headings.
+
+Updated CSS selectors to retain existing heading typography after promoting semantic levels. Original project descriptions, metadata and the login gate remain unchanged.
+
 ### Why
 
+Each page has one main heading and section headings that progress without skipped levels. The user-approved Home and Street Smarts labels describe their sections instead of repeating a person or project name.
+
 ### Commit
+
+`BA6: heading hierarchy across portfolio`
 
 
 ## Image alt text and image placeholders
@@ -350,4 +364,4 @@ Record the user’s preference to opt out of Google-Extended’s covered AI uses
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings and robots.txt items have been implemented; other checklist items remain unchanged.
