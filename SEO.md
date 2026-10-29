@@ -1,6 +1,6 @@
 # SEO audit — Margo Medeiros Architecture
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). No website edits or SEO fixes applied.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. Only the approved Page titles item has since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -36,7 +36,7 @@ Read the complete HTML of all seven local production pages, plus auth.js, script
 
 Live HTTP checks of the root, all seven page addresses, auth.js, robots.txt and sitemap.xml timed out on this connection. Therefore current deployed responses, HTTP redirect behavior, X-Robots-Tag headers, robots.txt status and search-engine rendering are NOT verified. Statements below describe the inspected production-source checkout, not a newly confirmed live deployment. The user previously identified Wi-Fi reachability problems.
 
-Checklist additions: authentication/crawl visibility, canonical URLs, sitemap.xml and social previews. These are relevant to this static portfolio with a login gate. No recommendations are filled in: Change, Why and Commit remain empty as requested. Missing entries below are explicitly audit findings, not quotations of existing text.
+Checklist additions: authentication/crawl visibility, canonical URLs, sitemap.xml and social previews. These are relevant to this static portfolio with a login gate. Only Page titles has approved Change, Why and Commit entries; all other checklist fields remain empty. Missing entries below are explicitly audit findings, not quotations of existing text.
 
 ## Page titles
 
@@ -51,9 +51,23 @@ Checklist additions: authentication/crawl visibility, canonical URLs, sitemap.xm
 
 ### Change
 
+- **login.html** — Log In to the Portfolio | Margo Medeiros
+- **index.html** — Architecture Portfolio | Margo Medeiros
+- **projects.html** — Architecture Projects | Margo Medeiros
+- **about.html** — About Margo Medeiros | Architecture Student
+- **between-house.html** — Between House | Margo Medeiros
+- **project-2.html** — Analysis of Urban Form and Tracing Exercises | Margo Medeiros
+- **project-3.html** — Street Smarts | Margo Medeiros
+
+Only the HTML <title> elements changed. Visible page headings, descriptions and original project text remain unchanged.
+
 ### Why
 
+Each title identifies the page or existing project and Margo Medeiros. The home and project-index titles now explicitly describe the architecture portfolio. The About title uses the confirmed architecture-student status. All seven titles were approved by the user before implementation.
+
 ### Commit
+
+`BA6: page titles across portfolio`
 
 
 ## Meta descriptions
@@ -310,6 +324,6 @@ Checklist additions: authentication/crawl visibility, canonical URLs, sitemap.xm
 
 ## Local-only document handling
 
-SEO.md is a new untracked audit file, not linked from any page, not staged, not committed and not pushed. It has not been published to Vercel. No existing website file or deployment configuration was changed. Do not include SEO.md in a future deployment: this static repository has no verified deployment exclusion for it, so a later blanket git add/commit could publish it. A robots.txt exclusion would not make an audit file private.
+SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. No recommended edits have been implemented.
+No files in the 585 checkout were changed for this audit. The user-approved Page titles item has been implemented; other checklist items remain unchanged.

@@ -479,3 +479,17 @@ Home, Projects, About and Login use images/physical-model.png. Between House use
 ## Production identity and domain
 
 The website identity is Margo Medeiros Architecture. Production URL: https://margo-medeiros-architecture-alpha.vercel.app/ . All share-image URLs use this hostname. Supabase Site URL and allowed authentication redirect URLs must use the new production domain; administrative settings must be confirmed separately.
+
+## Approved page titles — BA6
+
+Use these user-approved browser-tab titles. Keep visible headings, descriptions, project text and other metadata unchanged in this checklist step.
+
+- login.html: Log In to the Portfolio | Margo Medeiros
+- index.html: Architecture Portfolio | Margo Medeiros
+- projects.html: Architecture Projects | Margo Medeiros
+- about.html: About Margo Medeiros | Architecture Student
+- between-house.html: Between House | Margo Medeiros
+- project-2.html: Analysis of Urban Form and Tracing Exercises | Margo Medeiros
+- project-3.html: Street Smarts | Margo Medeiros
+
+SEO.md is a tracked audit document, excluded from Vercel deployment using /SEO.md in .vercelignore. This exclusion is necessary when publishing this checklist change.
