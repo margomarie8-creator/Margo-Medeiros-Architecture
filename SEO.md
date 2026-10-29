@@ -5,6 +5,7 @@
 - **Login retained:** The user has decided to keep the login page and existing portfolio login gate.
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
+- **Robots policy check:** `BA6: verify robots.txt crawler policy`. Local policy validated; live HTTP check still times out on this connection.
 
 Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links, Person/CreativeWork schema and robots.txt items have since been implemented.
 
@@ -364,16 +365,25 @@ Describe each student project and its authorship using confirmed details, existi
 
 ### Change
 
-Added root robots.txt with `User-agent: Google-Extended` and `Disallow: /`. Existing page-level crawl metadata remains unchanged.
+Retained the existing root-level robots.txt unchanged:
+
+```text
+# Find me, don't train on me (Google-Extended only).
+User-agent: Google-Extended
+Disallow: /
+```
+
+Checked the local rule with a robots parser: Google-Extended is disallowed for the root and all portfolio-page paths; Googlebot is allowed by this file. There is no `User-agent: *` blanket block. No page content, page-level crawl metadata or login behavior changed.
+
+Opened https://margo-medeiros-architecture-alpha.vercel.app/robots.txt in the app browser and attempted HTTP checks on October 29, 2026. Agent HTTP requests timed out, so the live HTTP status and served body remain independently unverified. The user approved retaining the policy; that approval is not treated as proof of the live response.
 
 ### Why
 
-Record the user’s preference to opt out of Google-Extended’s covered AI uses without blocking Googlebot search crawling. Keep the existing login page as the user explicitly decided.
+The current policy matches the user’s decision to retain search crawling while opting out of Google-Extended’s covered AI uses. The user explicitly retained the login page. This check does not claim guaranteed indexing, universal AI-training protection or verified live delivery.
 
 ### Commit
 
-`BA6: robots.txt crawler preferences`
-
+`BA6: verify robots.txt crawler policy`
 
 ## Authentication and crawl visibility
 
