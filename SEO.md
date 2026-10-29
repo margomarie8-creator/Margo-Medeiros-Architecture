@@ -7,21 +7,111 @@
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 - **Robots policy check:** `BA6: verify robots.txt crawler policy`. Local policy validated; live HTTP check still times out on this connection.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links, Person/CreativeWork schema and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff`; baseline document commit `8597806`. Current implementation source checked at `2e90c17`. Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links, Person/CreativeWork schema and robots.txt items have since been implemented.
+
+## Current implementation status — October 29, 2026
+
+Rechecked against the actual local production files at commit `2e90c17`. All ten requested checklist items are implemented locally and their implementation commits have been pushed. This is a source-level verification, not proof of a completed Vercel deployment or current search indexing. Live HTTP checks and live SEO.md exclusion remain unverified because of network timeouts.
+
+The **Before** entries below intentionally preserve the original baseline; they are historical, not the current text. **Change**, **Why** and **Commit** record each approved item. The current page inventory and snapshot below show the post-change files.
+
+| Item | Status | Implementation commit |
+| --- | --- | --- |
+| 1. Page titles | Implemented; source checked | 1d4ee96 |
+| 2. Meta descriptions | Implemented; source checked | 1a65885 |
+| 3. Headings | Implemented; source checked | 807ef58 |
+| 4. Alt text | Implemented; source checked | a823622 |
+| 5. About page | Implemented; source checked | 6d72c37 |
+| 6. Project summaries | Implemented; source checked | ed9bdd7 |
+| 7. Credibility | Implemented; source checked | 3018587 |
+| 8. Internal links | Implemented; source checked | e186f02 |
+| 9. Person and CreativeWork schema | Implemented; source checked | 07e8884 |
+| 10. robots.txt | Implemented; source checked | 99ceb7f; policy check 2e90c17 |
+
+There are 7 authored pages, each with one H1 and a non-empty title and description; 23 displayed image instances, all with non-empty approved alt text; one top-level Person block on About; and one top-level CreativeWork block on each of the three project pages. Project creator references point to the same About Person identity. Home links directly to every project; each project links to Home and About. All local file link targets exist.
+
+The About page includes the approved introduction, Fall 2026 coursework with both ARC 101 faculty in one bullet, ARC 111 faculty, and confirmed individual authorship. Each project has an approved opening summary and individual-work credit. Full original reflection paragraphs are retained. The login page and client-side portfolio gate remain in place.
+
+robots.txt contains only the Google-Extended opt-out group (plus its comment); it does not contain a blanket wildcard disallow. SEO.md remains excluded by /SEO.md in .vercelignore.
+
+Additional audit observations are not part of the ten implemented items: canonical tags and sitemap.xml remain absent locally; Open Graph titles/descriptions retain their earlier wording rather than mirroring the updated standard title/meta-description tags. No fixes for those extra observations were applied.
 
 ## Page inventory and signed-out access
 
 | Page | Address | What a signed-out visitor can see |
 | --- | --- | --- |
-| Log in — Margo Medeiros Architecture | https://margo-medeiros-architecture-alpha.vercel.app/login.html | Public login/sign-up interface. |
-| Home — Margo Medeiros Architecture | https://margo-medeiros-architecture-alpha.vercel.app/index.html | Portfolio content is hidden; auth.js sends the visitor to login.html. Raw HTML and asset files are still publicly retrievable when the host is reachable. |
-| Projects — Margo Medeiros Architecture | https://margo-medeiros-architecture-alpha.vercel.app/projects.html | Portfolio content is hidden; auth.js sends the visitor to login.html. Raw HTML and asset files are still publicly retrievable when the host is reachable. |
-| About — Margo Medeiros Architecture | https://margo-medeiros-architecture-alpha.vercel.app/about.html | Portfolio content is hidden; auth.js sends the visitor to login.html. Raw HTML and asset files are still publicly retrievable when the host is reachable. |
-| Between House — Margo Medeiros Architecture | https://margo-medeiros-architecture-alpha.vercel.app/between-house.html | Portfolio content is hidden; auth.js sends the visitor to login.html. Raw HTML and asset files are still publicly retrievable when the host is reachable. |
-| Analysis of Urban Form and Tracing Exercises — Margo Medeiros Architecture | https://margo-medeiros-architecture-alpha.vercel.app/project-2.html | Portfolio content is hidden; auth.js sends the visitor to login.html. Raw HTML and asset files are still publicly retrievable when the host is reachable. |
-| Street Smarts — Margo Medeiros Architecture | https://margo-medeiros-architecture-alpha.vercel.app/project-3.html | Portfolio content is hidden; auth.js sends the visitor to login.html. Raw HTML and asset files are still publicly retrievable when the host is reachable. |
+| Log In to the Portfolio \| Margo Medeiros | https://margo-medeiros-architecture-alpha.vercel.app/login.html | Public login/sign-up interface. |
+| Architecture Portfolio \| Margo Medeiros | https://margo-medeiros-architecture-alpha.vercel.app/index.html | By design, portfolio content is hidden and auth.js redirects to login.html. Raw HTML/assets have no server-side access gate in this static implementation; live behavior was not reverified. |
+| Architecture Projects \| Margo Medeiros | https://margo-medeiros-architecture-alpha.vercel.app/projects.html | By design, portfolio content is hidden and auth.js redirects to login.html. Raw HTML/assets have no server-side access gate in this static implementation; live behavior was not reverified. |
+| About Margo Medeiros \| Architecture Student | https://margo-medeiros-architecture-alpha.vercel.app/about.html | By design, portfolio content is hidden and auth.js redirects to login.html. Raw HTML/assets have no server-side access gate in this static implementation; live behavior was not reverified. |
+| Between House \| Margo Medeiros | https://margo-medeiros-architecture-alpha.vercel.app/between-house.html | By design, portfolio content is hidden and auth.js redirects to login.html. Raw HTML/assets have no server-side access gate in this static implementation; live behavior was not reverified. |
+| Analysis of Urban Form and Tracing Exercises \| Margo Medeiros | https://margo-medeiros-architecture-alpha.vercel.app/project-2.html | By design, portfolio content is hidden and auth.js redirects to login.html. Raw HTML/assets have no server-side access gate in this static implementation; live behavior was not reverified. |
+| Street Smarts \| Margo Medeiros | https://margo-medeiros-architecture-alpha.vercel.app/project-3.html | By design, portfolio content is hidden and auth.js redirects to login.html. Raw HTML/assets have no server-side access gate in this static implementation; live behavior was not reverified. |
 
 The root address https://margo-medeiros-architecture-alpha.vercel.app/ serves the same home document as index.html; it is not an additional authored page. No other top-level HTML pages exist in this checkout. The 585 folder is a second local Git checkout, not a second set of published pages. Local work/ previews are untracked review artifacts, not production pages.
+
+## Current page snapshot — source values
+
+### login.html
+
+- **Title:** “Log In to the Portfolio | Margo Medeiros”
+- **Meta description:** “Log in or create an account to view Margo Medeiros’s architecture portfolio.”
+- **Headings:** H1 “Welcome to the portfolio.”
+- **Displayed image alt text:** No displayed images.
+- **Schema:** No top-level JSON-LD block.
+
+### index.html
+
+- **Title:** “Architecture Portfolio | Margo Medeiros”
+- **Meta description:** “Explore Margo Medeiros’s architecture portfolio through drawings, physical models, sketches, and photography.”
+- **Headings:** H1 “Ideas take shape.”; H2 “Selected work”; H2 “Portfolio introduction”
+- **Displayed image alt text:** `images/physical-model.png`: “Between House model showing exposed stairs and a pitched roof.”; `images/project-2/map-cover.jpg`: “Hand-drawn plan of St. Augustine showing streets, trees, and the fort.”; `images/project-3/site-photograph.jpg`: “House and landscaping on South Greenway Drive, Coral Gables.”
+- **Schema:** No top-level JSON-LD block.
+
+### projects.html
+
+- **Title:** “Architecture Projects | Margo Medeiros”
+- **Meta description:** “View Between House, Analysis of Urban Form and Tracing Exercises, and Street Smarts by Margo Medeiros.”
+- **Headings:** H1 “Projects”; H2 “Between House”; H2 “Analysis of Urban Form and Tracing Exercises”; H2 “Street Smarts”
+- **Displayed image alt text:** `images/between-house/model-terraces.png`: “Between House model showing projecting terraces and a pitched roof.”; `images/project-2/map-cover.jpg`: “Hand-drawn plan of St. Augustine showing streets, trees, and the fort.”; `images/project-3/site-photograph.jpg`: “House and landscaping on South Greenway Drive, Coral Gables.”
+- **Schema:** No top-level JSON-LD block.
+
+### about.html
+
+- **Title:** “About Margo Medeiros | Architecture Student”
+- **Meta description:** “Meet Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami from Boston. Read about her developing skills and architectural interests.”
+- **Headings:** H1 “Margo Medeiros”; H2 “About”; H2 “Architectural interests”; H2 “Coursework and credits”
+- **Displayed image alt text:** No displayed images; About retains its explicitly labeled portrait placeholder.
+- **Schema:** Person
+- **Biography:** “I’m Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami School of Architecture. Originally from Boston, I create physical models, architectural drawings, and sketches through my studio coursework in Miami. My work so far includes physical model making, hand drafting, field sketching, site observation, and AutoCAD drawings. I enjoy turning observations and ideas into work I can build, study, and refine.”
+- **Coursework:** “ARC 101: Design I — Faculty: Crystal Torres and Sebastian Eiler”; “ARC 111: Visualization I — Faculty: Maria Cannavo”; “Fall 2026”.
+
+### between-house.html
+
+- **Title:** “Between House | Margo Medeiros”
+- **Meta description:** “Explore Between House, Margo Medeiros’s Jutaku House assignment, through physical model photographs and AutoCAD floor plans, elevations, and sections.”
+- **Headings:** H1 “Between House”; H2 “Model studies”; H2 “Architectural drawings”; H3 “Floor plans”; H3 “Elevations”; H3 “Sections”
+- **Displayed image alt text:** `images/between-house/model-terraces.png`: “Between House model showing projecting terraces and a pitched roof.”; `images/between-house/model-opposite-view.png`: “Opposite view of the Between House model showing terraces and the stair opening.”; `images/between-house/model-stair-volume.png`: “Between House model showing stair flights across multiple levels.”; `images/between-house/model-side-view.png`: “Side view of the Between House model showing stairs, terraces, and the roof.”; `images/between-house/floor-plans.png`: “Three Between House floor plans showing room layouts and stairs.”; `images/between-house/elevations.png`: “Four Between House elevations showing openings, terraces, and roof profiles.”; `images/between-house/sections.png`: “Two Between House sections showing floor levels, stairs, and the pitched roof.”
+- **Schema:** CreativeWork
+- **Opening summary:** “Between House is a Jutaku home designed for a hypothetical neighborhood, with student-designed homes grouped into blocks by studio, each with 12 students. The brief limited each home to 48 feet in height, 15 feet in width, and 48 feet in depth, while requiring it to respond cohesively to neighboring houses and follow site restrictions. I organized the house around an art studio positioned centrally, both vertically and horizontally—giving Between House its name. The design also prioritizes natural light within the constraints of closely spaced homes.”
+
+### project-2.html
+
+- **Title:** “Analysis of Urban Form and Tracing Exercises | Margo Medeiros”
+- **Meta description:** “View Margo Medeiros’s analysis of St. Augustine’s urban form and architectural tracing exercises, with drawings and her written reflections.”
+- **Headings:** H1 “Analysis of Urban Form and Tracing Exercises”; H2 “Analysis of Urban Form”; H2 “Tracing Exercises”
+- **Displayed image alt text:** `images/project-2/map-cover.jpg`: “Hand-drawn plan of St. Augustine showing streets, trees, and the fort.”; `images/project-2/sheet-3.jpg`: “Hand-drawn plan of St. Augustine showing streets, trees, and the fort.”; `images/project-2/sheet-4.jpg`: “Hand-drawn urban plan showing building footprints, streets, and trees.”; `images/project-2/sheet-5.jpg`: “Architectural drawings showing elevations, floor plans, sections, and facade details.”; `images/project-2/sheet-7.jpg`: “Tracing exercises showing plans, architectural views, trees, and urban studies.”
+- **Schema:** CreativeWork
+- **Opening summary:** “This project combines an urban-form study of St. Augustine, Florida, with architectural tracing exercises. The assignments involved studying urban form and practicing architectural drawing. My study examines the city’s streets, public spaces, buildings, and landscape, while the tracing exercises helped me learn to read plans and sections.”
+
+### project-3.html
+
+- **Title:** “Street Smarts | Margo Medeiros”
+- **Meta description:** “Explore Margo Medeiros’s study of South Greenway Drive in Coral Gables through site photography, field sketches, model photographs, and a final drawing.”
+- **Headings:** H1 “Street Smarts”; H2 “Project reflection”; H2 “Project documentation”; H3 “Site photograph”; H3 “Field sketches”; H3 “Physical model”; H3 “Final drawing”
+- **Displayed image alt text:** `images/project-3/site-photograph.jpg`: “House and landscaping on South Greenway Drive, Coral Gables.”; `images/project-3/site-photograph.jpg`: “House and landscaping on South Greenway Drive, Coral Gables.”; `images/project-3/field-sketches.jpg`: “Field sketches of a lantern-topped pillar, decorative gate, and landmark plaque.”; `images/project-3/model-studies.jpg`: “Four views of a streetscape model showing a house, trees, and the ground plane.”; `images/project-3/final-drawing.jpg`: “Street elevation and plan showing trees, a house, sidewalk, and street.”
+- **Schema:** CreativeWork
+- **Opening summary:** “Street Smarts studies South Greenway Drive in Coral Gables, Florida, through site observation, field sketches, a physical model, and a final drawing. The project involved observing the street and recreating a portion of it. My work examines how the street, sidewalk, landscape, and buildings form layers that shape the experience of the place.”
 
 ## HTML delivery and JavaScript — answer for every page
 
