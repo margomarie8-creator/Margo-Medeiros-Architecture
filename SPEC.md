@@ -577,3 +577,7 @@ No internships, awards, exhibitions, publications or firm work are added.
 ## Approved internal-link labels — BA6
 
 Home retains its media labels and adds each project destination: Physical model — Between House; Drawing — Analysis of Urban Form and Tracing Exercises; Photograph — Street Smarts. Projects card cues name their destination. Keep Home, About and Back to Projects links on every project. PDF link text names its sheet or project portfolio. Update accessible names to match visible destination labels. Preserve all URLs, images, alt text and original project writing.
+
+## Approved Person and CreativeWork schema — BA6
+
+Embed static JSON-LD in the HTML head. About contains one Person with a stable @id at https://margo-medeiros-architecture-alpha.vercel.app/about.html#person, the approved Margo Medeiros name, About URL, University of Miami School of Architecture affiliation and the approved first two biography sentences. Each project detail page contains one CreativeWork with its existing title, the same Person creator identity, page URL, cover image, Fall 2026 temporal coverage and verbatim approved opening summary. Project 2 uses St. Augustine, Florida as contentLocation; Street Smarts uses South Greenway Drive, Coral Gables, Florida. Between House describes the hypothetical site in its summary and has no real geographic location claim. No birth date, awards, qualifications, LinkedIn URL or exact creation date is added. Preserve visible content, login behavior and all other metadata.

@@ -6,7 +6,7 @@
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links, Person/CreativeWork schema and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -29,12 +29,13 @@ The root address https://margo-medeiros-architecture-alpha.vercel.app/ serves th
 | login.html | Written directly in static HTML; not injected by JavaScript. | Initial login text is in HTML. JavaScript changes the welcome heading in sign-up mode and adds status/error messages. | Neither is present in HTML or added by the existing JavaScript. |
 | index.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | Neither is present in HTML or added by the existing JavaScript. |
 | projects.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | Neither is present in HTML or added by the existing JavaScript. |
-| about.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | Neither is present in HTML or added by the existing JavaScript. |
-| between-house.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | Neither is present in HTML or added by the existing JavaScript. |
-| project-2.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | Neither is present in HTML or added by the existing JavaScript. |
-| project-3.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | Neither is present in HTML or added by the existing JavaScript. |
+| about.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | Person JSON-LD is now embedded directly in static HTML; no CreativeWork block on this page. |
+| between-house.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | CreativeWork JSON-LD with a reference to the About Person is now embedded directly in static HTML. |
+| project-2.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | CreativeWork JSON-LD with a reference to the About Person is now embedded directly in static HTML. |
+| project-3.html | Written directly in static HTML; not injected by JavaScript. | Written directly in static HTML inside a hidden wrapper. JavaScript reveals it after a session check; it does not generate the portfolio text. | CreativeWork JSON-LD with a reference to the About Person is now embedded directly in static HTML. |
 
 This is static HTML delivery, not dynamic server rendering: the files already contain the metadata and content before the browser executes JavaScript. The protected-page gate is a client-side redirect, not server-side access control. SEO source availability and signed-out rendered visibility are different; this audit does not assert that hidden portfolio content is indexed.
+
 
 ## Audit scope and limitations
 
@@ -303,9 +304,21 @@ Required page routes already existed. User-approved visible labels now identify 
 
 ### Change
 
+- **login.html** — No change for this schema type.
+- **index.html** — No change for this schema type.
+- **projects.html** — No change for this schema type.
+- **about.html** — Added a Person JSON-LD block with Margo Medeiros, the approved biography introduction, school affiliation, About URL and stable Person @id.
+- **between-house.html** — Added a creator reference to the shared Person @id, with the confirmed Margo Medeiros name; full biographical Person block remains on About.
+- **project-2.html** — Added a creator reference to the shared Person @id, with the confirmed Margo Medeiros name; full biographical Person block remains on About.
+- **project-3.html** — Added a creator reference to the shared Person @id, with the confirmed Margo Medeiros name; full biographical Person block remains on About.
+
 ### Why
 
+Identify the portfolio owner consistently using confirmed details and existing user-approved writing. JSON-LD is embedded directly in the static HTML and does not generate visible text or bypass the login gate. Parsed each JSON-LD block successfully; search-engine indexing and rich-result eligibility are not guaranteed.
+
 ### Commit
+
+`BA6: Person and CreativeWork schema`
 
 
 ## Schema — CreativeWork
@@ -321,9 +334,21 @@ Required page routes already existed. User-approved visible labels now identify 
 
 ### Change
 
+- **login.html** — No change for this schema type.
+- **index.html** — No change for this schema type.
+- **projects.html** — No change for this schema type.
+- **about.html** — No change for this schema type.
+- **between-house.html** — Added a CreativeWork JSON-LD block for Between House, linking Margo Medeiros as creator, the project URL and cover, Fall 2026 and the full approved opening summary. Hypothetical site retained in the summary; no real location assigned.
+- **project-2.html** — Added a CreativeWork JSON-LD block for Analysis of Urban Form and Tracing Exercises, linking Margo Medeiros as creator, the project URL and cover, Fall 2026 and the full approved opening summary. contentLocation: St. Augustine, Florida.
+- **project-3.html** — Added a CreativeWork JSON-LD block for Street Smarts, linking Margo Medeiros as creator, the project URL and cover, Fall 2026 and the full approved opening summary. contentLocation: South Greenway Drive, Coral Gables, Florida.
+
 ### Why
 
+Describe each student project and its authorship using confirmed details, existing cover assets and user-approved summaries, without claiming unconfirmed dates, awards or a real Between House site. JSON-LD is embedded directly in the static HTML and does not generate visible text or bypass the login gate. Parsed each JSON-LD block successfully; search-engine indexing and rich-result eligibility are not guaranteed.
+
 ### Commit
+
+`BA6: Person and CreativeWork schema`
 
 
 ## robots.txt and page-level crawl controls
@@ -426,4 +451,4 @@ Record the user’s preference to opt out of Google-Extended’s covered AI uses
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links, Person/CreativeWork schema and robots.txt items have been implemented; other checklist items remain unchanged.
