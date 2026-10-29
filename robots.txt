@@ -1,3 +1,5 @@
 # Find me, don't train on me (Google-Extended only).
 User-agent: Google-Extended
 Disallow: /
+
+Sitemap: https://margo-medeiros-architecture-alpha.vercel.app/sitemap.xml

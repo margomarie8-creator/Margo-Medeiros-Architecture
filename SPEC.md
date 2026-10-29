@@ -585,3 +585,7 @@ Embed static JSON-LD in the HTML head. About contains one Person with a stable @
 ## Google Search Console ownership verification
 
 Serve the user-supplied google5592fedfbe394a61.html unchanged at the website root, publicly accessible without the portfolio login gate. It is a Search Console ownership verification resource, not a portfolio content page. Keep SEO.md excluded from deployment.
+
+## Public-page sitemap
+
+Serve sitemap.xml at the website root. Include only login.html, the public content page under the retained login-gate decision. Exclude protected portfolio pages, the Google verification resource and the internal SEO audit. Add the absolute sitemap URL to robots.txt without changing the Google-Extended rule. Submit the sitemap to the matching verified Search Console property when access is available. Do not claim that submission removes login barriers or guarantees indexing.

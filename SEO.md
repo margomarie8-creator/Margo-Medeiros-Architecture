@@ -32,9 +32,9 @@ There are 7 authored pages, each with one H1 and a non-empty title and descripti
 
 The About page includes the approved introduction, Fall 2026 coursework with both ARC 101 faculty in one bullet, ARC 111 faculty, and confirmed individual authorship. Each project has an approved opening summary and individual-work credit. Full original reflection paragraphs are retained. The login page and client-side portfolio gate remain in place.
 
-robots.txt contains only the Google-Extended opt-out group (plus its comment); it does not contain a blanket wildcard disallow. SEO.md remains excluded by /SEO.md in .vercelignore.
+robots.txt contains the Google-Extended opt-out group and an absolute Sitemap directive; it does not contain a blanket wildcard disallow. SEO.md remains excluded by /SEO.md in .vercelignore.
 
-Additional audit observations are not part of the ten implemented items: canonical tags and sitemap.xml remain absent locally; Open Graph titles/descriptions retain their earlier wording rather than mirroring the updated standard title/meta-description tags. No fixes for those extra observations were applied.
+Additional audit observations are not part of the ten implemented items: canonical tags remain absent locally; sitemap.xml now exists and lists only the public login page; Open Graph titles/descriptions retain their earlier wording rather than mirroring the updated standard title/meta-description tags. No fixes for those extra observations were applied.
 
 ## Page inventory and signed-out access
 
@@ -524,9 +524,15 @@ The current policy matches the user’s decision to retain search crawling while
 
 ### Change
 
+Created root sitemap.xml listing https://margo-medeiros-architecture-alpha.vercel.app/login.html only. Portfolio pages remain behind the user-retained login gate and are excluded, as are the verification resource and SEO.md. Added Sitemap: https://margo-medeiros-architecture-alpha.vercel.app/sitemap.xml to robots.txt. Search Console submission is pending browser access and deployment confirmation.
+
 ### Why
 
+List only the public content page under the current access policy and advertise its sitemap location to crawlers. A sitemap does not make login-gated project content indexable.
+
 ### Commit
+
+`Add sitemap for public pages`
 
 
 ## Social/share metadata
@@ -551,4 +557,4 @@ The current policy matches the user’s decision to retain search crawling while
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links, Person/CreativeWork schema and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links, Person/CreativeWork schema and robots.txt items have been implemented; the public-page sitemap has subsequently been added; other extra audit observations remain unchanged.
