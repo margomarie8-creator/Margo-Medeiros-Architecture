@@ -1,6 +1,12 @@
 # SEO audit — Margo Medeiros Architecture
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. Only the approved Page titles item has since been implemented.
+## Current decisions
+
+- **Login retained:** The user has decided to keep the login page and existing portfolio login gate.
+- **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
+- **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
+
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -36,7 +42,7 @@ Read the complete HTML of all seven local production pages, plus auth.js, script
 
 Live HTTP checks of the root, all seven page addresses, auth.js, robots.txt and sitemap.xml timed out on this connection. Therefore current deployed responses, HTTP redirect behavior, X-Robots-Tag headers, robots.txt status and search-engine rendering are NOT verified. Statements below describe the inspected production-source checkout, not a newly confirmed live deployment. The user previously identified Wi-Fi reachability problems.
 
-Checklist additions: authentication/crawl visibility, canonical URLs, sitemap.xml and social previews. These are relevant to this static portfolio with a login gate. Only Page titles has approved Change, Why and Commit entries; all other checklist fields remain empty. Missing entries below are explicitly audit findings, not quotations of existing text.
+Checklist additions: authentication/crawl visibility, canonical URLs, sitemap.xml and social previews. These are relevant to this static portfolio with a login gate. Only implemented checklist items have Change, Why and Commit entries; other fields remain empty. Missing entries below are explicitly audit findings, not quotations of existing text.
 
 ## Page titles
 
@@ -245,9 +251,15 @@ Each title identifies the page or existing project and Margo Medeiros. The home 
 
 ### Change
 
+Added root robots.txt with `User-agent: Google-Extended` and `Disallow: /`. Existing page-level crawl metadata remains unchanged.
+
 ### Why
 
+Record the user’s preference to opt out of Google-Extended’s covered AI uses without blocking Googlebot search crawling. Keep the existing login page as the user explicitly decided.
+
 ### Commit
+
+`BA6: robots.txt crawler preferences`
 
 
 ## Authentication and crawl visibility
@@ -326,4 +338,4 @@ Each title identifies the page or existing project and Margo Medeiros. The home 
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The user-approved Page titles item has been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles and robots.txt items have been implemented; other checklist items remain unchanged.

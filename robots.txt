@@ -1,0 +1,3 @@
+# Find me, don't train on me (Google-Extended only).
+User-agent: Google-Extended
+Disallow: /

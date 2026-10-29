@@ -480,6 +480,10 @@ Home, Projects, About and Login use images/physical-model.png. Between House use
 
 The website identity is Margo Medeiros Architecture. Production URL: https://margo-medeiros-architecture-alpha.vercel.app/ . All share-image URLs use this hostname. Supabase Site URL and allowed authentication redirect URLs must use the new production domain; administrative settings must be confirmed separately.
 
+## Crawler preference — find me, do not train on me
+
+Add robots.txt at the website root with a Google-Extended group and Disallow: /. This opts out of the uses governed by Google-Extended while leaving Googlebot search crawling unrestricted by this rule. It does not guarantee indexing, bypass the login gate, or opt out of every AI provider. Preserve the baseline Before entries in SEO.md and keep the audit excluded from Vercel. The user has approved publishing this crawler rule.
+
 ## Approved page titles — BA6
 
 Use these user-approved browser-tab titles. Keep visible headings, descriptions, project text and other metadata unchanged in this checklist step.
@@ -493,3 +497,7 @@ Use these user-approved browser-tab titles. Keep visible headings, descriptions,
 - project-3.html: Street Smarts | Margo Medeiros
 
 SEO.md is a tracked audit document, excluded from Vercel deployment using /SEO.md in .vercelignore. This exclusion is necessary when publishing this checklist change.
+
+## Login decision — BA6
+
+The user has decided to keep the login page and the existing session gate for portfolio pages. Crawler rules do not remove or bypass authentication.
