@@ -476,3 +476,11 @@ Use the following user-approved short descriptions for displayed images. Repeate
 - images/project-3/field-sketches.jpg: Field sketches of a lantern-topped pillar, decorative gate, and landmark plaque.
 - images/project-3/model-studies.jpg: Four views of a streetscape model showing a house, trees, and the ground plane.
 - images/project-3/final-drawing.jpg: Street elevation and plan showing trees, a house, sidewalk, and street.
+
+## Approved About introduction — BA6
+
+Use Margo Medeiros consistently as the user-approved site identity. The user approved these first two biography sentences:
+
+I’m Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami School of Architecture. Originally from Boston, I create physical models, architectural drawings, and sketches through my studio coursework in Miami.
+
+Keep the rest of the biography and architectural-interests text unchanged. The website name is approved; no independent LinkedIn profile verification has been performed.

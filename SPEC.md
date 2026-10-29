@@ -461,7 +461,7 @@ The true framework and method of division yet connection throughout a city, the 
 ## About page draft for review
 
 Biography:
-I’m Margo Medeiros, a first-year student at the University of Miami pursuing a Bachelor of Architecture. Originally from Boston, I’m developing my design skills through studio projects, drawing, and hands-on exploration. My work so far includes physical model making, hand drafting, field sketching, site observation, and AutoCAD drawings. I enjoy turning observations and ideas into work I can build, study, and refine.
+I’m Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami School of Architecture. Originally from Boston, I create physical models, architectural drawings, and sketches through my studio coursework in Miami. My work so far includes physical model making, hand drafting, field sketching, site observation, and AutoCAD drawings. I enjoy turning observations and ideas into work I can build, study, and refine.
 
 Architectural interests:
 I’m still discovering which areas of architecture I’m most drawn to. Each project gives me a chance to explore different approaches, learn how spaces relate to their surroundings, and develop my own perspective as a designer.
@@ -539,3 +539,11 @@ Use the following user-approved short descriptions for displayed images. Repeate
 - images/project-3/field-sketches.jpg: Field sketches of a lantern-topped pillar, decorative gate, and landmark plaque.
 - images/project-3/model-studies.jpg: Four views of a streetscape model showing a house, trees, and the ground plane.
 - images/project-3/final-drawing.jpg: Street elevation and plan showing trees, a house, sidewalk, and street.
+
+## Approved About introduction — BA6
+
+Use Margo Medeiros consistently as the user-approved site identity. The user approved these first two biography sentences:
+
+I’m Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami School of Architecture. Originally from Boston, I create physical models, architectural drawings, and sketches through my studio coursework in Miami.
+
+Keep the rest of the biography and architectural-interests text unchanged. The website name is approved; no independent LinkedIn profile verification has been performed.

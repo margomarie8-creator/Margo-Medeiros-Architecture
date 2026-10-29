@@ -6,7 +6,7 @@
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -181,9 +181,21 @@ All 23 displayed image instances use short, user-approved descriptions of visibl
 
 ### Change
 
+- **login.html** — No change; existing Margo Medeiros identity remains consistent.
+- **index.html** — No change; existing Margo Medeiros identity remains consistent.
+- **projects.html** — No change; existing Margo Medeiros identity remains consistent.
+- **about.html** — Replaced the first two biography sentences with the user-approved text: “I’m Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami School of Architecture. Originally from Boston, I create physical models, architectural drawings, and sketches through my studio coursework in Miami.” The rest of the biography, interests and portrait placeholder remain unchanged.
+- **between-house.html** — No change; existing Margo Medeiros identity remains consistent.
+- **project-2.html** — No change; existing Margo Medeiros identity remains consistent.
+- **project-3.html** — No change; existing Margo Medeiros identity remains consistent.
+
 ### Why
 
+The first two sentences now identify the user by the approved name, University of Miami School of Architecture, first-year Bachelor of Architecture studies, the work she creates and its Miami studio context. Existing supplied Boston background is retained. No awards or additional credits are added. LinkedIn identity was not independently verified.
+
 ### Commit
+
+`BA6: About page introduction and identity`
 
 
 ## Project summaries and original writing
@@ -376,4 +388,4 @@ Record the user’s preference to opt out of Google-Extended’s covered AI uses
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page and robots.txt items have been implemented; other checklist items remain unchanged.
