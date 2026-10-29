@@ -6,7 +6,7 @@
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -273,9 +273,21 @@ The user confirmed the course faculty, Fall 2026 semester, individual authorship
 
 ### Change
 
+- **login.html** — No change; existing login navigation retained.
+- **index.html** — Home preview captions now name all three project destinations while retaining Physical model, Drawing and Photograph. Removed redundant overriding aria-labels so the visible captions supply destination names.
+- **projects.html** — Changed each View project cue to View Between House, View Analysis of Urban Form and Tracing Exercises, or View Street Smarts.
+- **about.html** — No change; existing Home and Projects navigation retained.
+- **between-house.html** — Named the floor plans, elevations and sections PDF links. Home, About and Back to Projects remain available.
+- **project-2.html** — Named the full project portfolio and urban plan, urban fabric and architectural studies PDF links. Home, About and Back to Projects remain available.
+- **project-3.html** — Named the full Street Smarts portfolio and site photograph, field sketches, physical model and final drawing PDF links. Home, About and Back to Projects remain available.
+
 ### Why
 
+Required page routes already existed. User-approved visible labels now identify their project or PDF destinations instead of generic repeated cues. All URL targets, image alt text, original writing and login behavior remain unchanged. Local file and HTML-fragment targets were checked; live responses remain subject to the previously noted network limitation.
+
 ### Commit
+
+`BA6: descriptive internal links across portfolio`
 
 
 ## Schema — Person
@@ -414,4 +426,4 @@ Record the user’s preference to opt out of Google-Extended’s covered AI uses
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility, Internal links and robots.txt items have been implemented; other checklist items remain unchanged.

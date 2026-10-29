@@ -510,3 +510,7 @@ Approved About statement: All projects shown are individual work. All drawings, 
 Approved project-page credit: Drawings, models, and photographs by Margo Medeiros. Individual project.
 
 No internships, awards, exhibitions, publications or firm work are added.
+
+## Approved internal-link labels — BA6
+
+Home retains its media labels and adds each project destination: Physical model — Between House; Drawing — Analysis of Urban Form and Tracing Exercises; Photograph — Street Smarts. Projects card cues name their destination. Keep Home, About and Back to Projects links on every project. PDF link text names its sheet or project portfolio. Update accessible names to match visible destination labels. Preserve all URLs, images, alt text and original project writing.
