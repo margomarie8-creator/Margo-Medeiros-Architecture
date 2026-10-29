@@ -454,3 +454,25 @@ The user approved the following descriptions. Apply them only to the HTML meta n
 ## Approved heading hierarchy — BA6
 
 Every page keeps exactly one H1. Login, Projects and About headings stay unchanged. Home keeps H1 Ideas take shape. and H2 Selected work; rename its second H2 to Portfolio introduction. Between House uses H2 Model studies and Architectural drawings with H3 Floor plans, Elevations and Sections. Project 2 uses H2 Analysis of Urban Form and Tracing Exercises. Street Smarts uses H2 Project reflection and H2 Project documentation, with H3 Site photograph, Field sketches, Physical model and Final drawing under documentation. The user approved these labels. Preserve existing typography and all original description paragraphs.
+
+## Approved image alt text — BA6
+
+Use the following user-approved short descriptions for displayed images. Repeated assets use the same description. Keep visible captions, source images, project writing, headings and metadata unchanged. Login has no displayed images; About retains its explicitly labeled portrait placeholder.
+
+- images/physical-model.png: Between House model showing exposed stairs and a pitched roof.
+- images/between-house/model-terraces.png: Between House model showing projecting terraces and a pitched roof.
+- images/between-house/model-opposite-view.png: Opposite view of the Between House model showing terraces and the stair opening.
+- images/between-house/model-stair-volume.png: Between House model showing stair flights across multiple levels.
+- images/between-house/model-side-view.png: Side view of the Between House model showing stairs, terraces, and the roof.
+- images/between-house/floor-plans.png: Three Between House floor plans showing room layouts and stairs.
+- images/between-house/elevations.png: Four Between House elevations showing openings, terraces, and roof profiles.
+- images/between-house/sections.png: Two Between House sections showing floor levels, stairs, and the pitched roof.
+- images/project-2/map-cover.jpg: Hand-drawn plan of St. Augustine showing streets, trees, and the fort.
+- images/project-2/sheet-3.jpg: Hand-drawn plan of St. Augustine showing streets, trees, and the fort.
+- images/project-2/sheet-4.jpg: Hand-drawn urban plan showing building footprints, streets, and trees.
+- images/project-2/sheet-5.jpg: Architectural drawings showing elevations, floor plans, sections, and facade details.
+- images/project-2/sheet-7.jpg: Tracing exercises showing plans, architectural views, trees, and urban studies.
+- images/project-3/site-photograph.jpg: House and landscaping on South Greenway Drive, Coral Gables.
+- images/project-3/field-sketches.jpg: Field sketches of a lantern-topped pillar, decorative gate, and landmark plaque.
+- images/project-3/model-studies.jpg: Four views of a streetscape model showing a house, trees, and the ground plane.
+- images/project-3/final-drawing.jpg: Street elevation and plan showing trees, a house, sidewalk, and street.

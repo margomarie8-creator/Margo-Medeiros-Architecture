@@ -6,7 +6,7 @@
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -151,9 +151,21 @@ Each page has one main heading and section headings that progress without skippe
 
 ### Change
 
+- **login.html** — No change; no displayed images.
+- **index.html** — `images/physical-model.png`: Between House model showing exposed stairs and a pitched roof.; `images/project-2/map-cover.jpg`: Hand-drawn plan of St. Augustine showing streets, trees, and the fort.; `images/project-3/site-photograph.jpg`: House and landscaping on South Greenway Drive, Coral Gables.
+- **projects.html** — `images/between-house/model-terraces.png`: Between House model showing projecting terraces and a pitched roof.; `images/project-2/map-cover.jpg`: Hand-drawn plan of St. Augustine showing streets, trees, and the fort.; `images/project-3/site-photograph.jpg`: House and landscaping on South Greenway Drive, Coral Gables.
+- **about.html** — No change; the portrait placeholder keeps its descriptive aria-label.
+- **between-house.html** — `images/between-house/model-terraces.png`: Between House model showing projecting terraces and a pitched roof.; `images/between-house/model-opposite-view.png`: Opposite view of the Between House model showing terraces and the stair opening.; `images/between-house/model-stair-volume.png`: Between House model showing stair flights across multiple levels.; `images/between-house/model-side-view.png`: Side view of the Between House model showing stairs, terraces, and the roof.; `images/between-house/floor-plans.png`: Three Between House floor plans showing room layouts and stairs.; `images/between-house/elevations.png`: Four Between House elevations showing openings, terraces, and roof profiles.; `images/between-house/sections.png`: Two Between House sections showing floor levels, stairs, and the pitched roof.
+- **project-2.html** — `images/project-2/map-cover.jpg`: Hand-drawn plan of St. Augustine showing streets, trees, and the fort.; `images/project-2/sheet-3.jpg`: Hand-drawn plan of St. Augustine showing streets, trees, and the fort.; `images/project-2/sheet-4.jpg`: Hand-drawn urban plan showing building footprints, streets, and trees.; `images/project-2/sheet-5.jpg`: Architectural drawings showing elevations, floor plans, sections, and facade details.; `images/project-2/sheet-7.jpg`: Tracing exercises showing plans, architectural views, trees, and urban studies.
+- **project-3.html** — `images/project-3/site-photograph.jpg`: House and landscaping on South Greenway Drive, Coral Gables.; `images/project-3/site-photograph.jpg`: House and landscaping on South Greenway Drive, Coral Gables.; `images/project-3/field-sketches.jpg`: Field sketches of a lantern-topped pillar, decorative gate, and landmark plaque.; `images/project-3/model-studies.jpg`: Four views of a streetscape model showing a house, trees, and the ground plane.; `images/project-3/final-drawing.jpg`: Street elevation and plan showing trees, a house, sidewalk, and street.
+
 ### Why
 
+All 23 displayed image instances use short, user-approved descriptions of visible subjects. Repeated assets are described consistently, without adding unverified materials, media or project facts. Existing captions, original writing and image files remain unchanged.
+
 ### Commit
+
+`BA6: image alt text across portfolio`
 
 
 ## About page and biographical context
@@ -364,4 +376,4 @@ Record the user’s preference to opt out of Google-Extended’s covered AI uses
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text and robots.txt items have been implemented; other checklist items remain unchanged.
