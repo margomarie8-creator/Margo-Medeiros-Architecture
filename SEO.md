@@ -6,7 +6,7 @@
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -89,9 +89,21 @@ Each title identifies the page or existing project and Margo Medeiros. The home 
 
 ### Change
 
+- **login.html** — Log in or create an account to view Margo Medeiros’s architecture portfolio.
+- **index.html** — Explore Margo Medeiros’s architecture portfolio through drawings, physical models, sketches, and photography.
+- **projects.html** — View Between House, Analysis of Urban Form and Tracing Exercises, and Street Smarts by Margo Medeiros.
+- **about.html** — Meet Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami from Boston. Read about her developing skills and architectural interests.
+- **between-house.html** — Explore Between House, Margo Medeiros’s Jutaku House assignment, through physical model photographs and AutoCAD floor plans, elevations, and sections.
+- **project-2.html** — View Margo Medeiros’s analysis of St. Augustine’s urban form and architectural tracing exercises, with drawings and her written reflections.
+- **project-3.html** — Explore Margo Medeiros’s study of South Greenway Drive in Coral Gables through site photography, field sketches, model photographs, and a final drawing.
+
 ### Why
 
+Each page now has a user-approved one- or two-sentence description of its actual content. Existing project names, supplied biography facts and documented media are used without adding awards, credits or other unverified facts. Visible original project writing remains unchanged.
+
 ### Commit
+
+`BA6: meta descriptions across portfolio`
 
 
 ## Headings
@@ -338,4 +350,4 @@ Record the user’s preference to opt out of Google-Extended’s covered AI uses
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions and robots.txt items have been implemented; other checklist items remain unchanged.

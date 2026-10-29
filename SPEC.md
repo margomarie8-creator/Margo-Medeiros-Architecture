@@ -501,3 +501,15 @@ SEO.md is a tracked audit document, excluded from Vercel deployment using /SEO.m
 ## Login decision — BA6
 
 The user has decided to keep the login page and the existing session gate for portfolio pages. Crawler rules do not remove or bypass authentication.
+
+## Approved meta descriptions — BA6
+
+The user approved the following descriptions. Apply them only to the HTML meta name="description" tags. Keep visible writing, titles, headings, social metadata and login behavior unchanged.
+
+- login.html: Log in or create an account to view Margo Medeiros’s architecture portfolio.
+- index.html: Explore Margo Medeiros’s architecture portfolio through drawings, physical models, sketches, and photography.
+- projects.html: View Between House, Analysis of Urban Form and Tracing Exercises, and Street Smarts by Margo Medeiros.
+- about.html: Meet Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami from Boston. Read about her developing skills and architectural interests.
+- between-house.html: Explore Between House, Margo Medeiros’s Jutaku House assignment, through physical model photographs and AutoCAD floor plans, elevations, and sections.
+- project-2.html: View Margo Medeiros’s analysis of St. Augustine’s urban form and architectural tracing exercises, with drawings and her written reflections.
+- project-3.html: Explore Margo Medeiros’s study of South Greenway Drive in Coral Gables through site photography, field sketches, model photographs, and a final drawing.
