@@ -564,3 +564,12 @@ This project combines an urban-form study of St. Augustine, Florida, with archit
 
 Street Smarts studies South Greenway Drive in Coral Gables, Florida, through site observation, field sketches, a physical model, and a final drawing. The project involved observing the street and recreating a portion of it. My work examines how the street, sidewalk, landscape, and buildings form layers that shape the experience of the place.
 
+## Approved coursework and authorship credits — BA6
+
+About includes H2 Coursework and credits, University of Miami School of Architecture — Fall 2026, and two course bullets. ARC 101: Design I is one class with faculty Crystal Torres and Sebastian Eiler; its listed work is Analysis of Urban Form and Tracing Exercises and Between House, Jutaku House assignment. ARC 111: Visualization I lists faculty Maria Cannavo and Street Smarts. The user confirmed every project is Fall 2026, all work and photographs are their own, and all projects are individual with no partners.
+
+Approved About statement: All projects shown are individual work. All drawings, models, and photographs are my own.
+
+Approved project-page credit: Drawings, models, and photographs by Margo Medeiros. Individual project.
+
+No internships, awards, exhibitions, publications or firm work are added.

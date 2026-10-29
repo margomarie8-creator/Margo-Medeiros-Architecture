@@ -6,7 +6,7 @@
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -243,9 +243,21 @@ Each project detail page now opens with a user-approved paragraph describing its
 
 ### Change
 
+- **login.html** — No change; detailed coursework and authorship are listed on About and project pages.
+- **index.html** — No change; detailed coursework and authorship are listed on About and project pages.
+- **projects.html** — No change; detailed coursework and authorship are listed on About and project pages.
+- **about.html** — Added Coursework and credits with Fall 2026, one ARC 101 bullet naming Crystal Torres and Sebastian Eiler, and one ARC 111 bullet naming Maria Cannavo. Added the user-approved individual-work and image-ownership statement.
+- **between-house.html** — Added “Drawings, models, and photographs by Margo Medeiros. Individual project.” Added ARC 101, Fall 2026 and faculty Crystal Torres and Sebastian Eiler.
+- **project-2.html** — Added “Drawings, models, and photographs by Margo Medeiros. Individual project.” ARC 101 faculty credit now names Crystal Torres and Sebastian Eiler.
+- **project-3.html** — Added “Drawings, models, and photographs by Margo Medeiros. Individual project.” Existing ARC 111, Fall 2026 and Maria Cannavo credit retained.
+
 ### Why
 
+The user confirmed the course faculty, Fall 2026 semester, individual authorship and ownership of all displayed work and photographs. About now identifies the actual coursework, with both ARC 101 professors under one class, and project pages explicitly credit Margo Medeiros. No awards, internships, exhibitions, publications or partners were invented.
+
 ### Commit
+
+`BA6: coursework and authorship credits`
 
 
 ## Internal links
@@ -402,4 +414,4 @@ Record the user’s preference to opt out of Google-Extended’s covered AI uses
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries, Credibility and robots.txt items have been implemented; other checklist items remain unchanged.
