@@ -518,3 +518,7 @@ Home retains its media labels and adds each project destination: Physical model 
 ## Approved Person and CreativeWork schema — BA6
 
 Embed static JSON-LD in the HTML head. About contains one Person with a stable @id at https://margo-medeiros-architecture-alpha.vercel.app/about.html#person, the approved Margo Medeiros name, About URL, University of Miami School of Architecture affiliation and the approved first two biography sentences. Each project detail page contains one CreativeWork with its existing title, the same Person creator identity, page URL, cover image, Fall 2026 temporal coverage and verbatim approved opening summary. Project 2 uses St. Augustine, Florida as contentLocation; Street Smarts uses South Greenway Drive, Coral Gables, Florida. Between House describes the hypothetical site in its summary and has no real geographic location claim. No birth date, awards, qualifications, LinkedIn URL or exact creation date is added. Preserve visible content, login behavior and all other metadata.
+
+## Google Search Console ownership verification
+
+Serve the user-supplied google5592fedfbe394a61.html unchanged at the website root, publicly accessible without the portfolio login gate. It is a Search Console ownership verification resource, not a portfolio content page. Keep SEO.md excluded from deployment.
