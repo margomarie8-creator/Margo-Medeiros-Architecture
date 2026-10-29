@@ -6,7 +6,7 @@
 - **robots.txt approved for publication:** `User-agent: Google-Extended` with `Disallow: /`. This applies to Google-Extended’s covered AI uses and does not block Googlebot search crawling. It does not guarantee search indexing or opt out of every AI provider.
 - **Robots commit:** `BA6: robots.txt crawler preferences`. SEO.md remains excluded from Vercel through .vercelignore.
 
-Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page and robots.txt items have since been implemented.
+Audit date: October 29, 2026. Local source baseline: Git commit `83e8eff` (verify current HEAD below if changed). Baseline observations are retained below. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries and robots.txt items have since been implemented.
 
 ## Page inventory and signed-out access
 
@@ -211,9 +211,23 @@ The first two sentences now identify the user by the approved name, University o
 
 ### Change
 
+- **login.html** — No change; this is not a project detail page.
+- **index.html** — No change; this is not a project detail page.
+- **projects.html** — No change; this is not a project detail page.
+- **about.html** — No change; this is not a project detail page.
+- **between-house.html** — Added the approved opening paragraph directly below the H1: “Between House is a Jutaku home designed for a hypothetical neighborhood, with student-designed homes grouped into blocks by studio, each with 12 students. The brief limited each home to 48 feet in height, 15 feet in width, and 48 feet in depth, while requiring it to respond cohesively to neighboring houses and follow site restrictions. I organized the house around an art studio positioned centrally, both vertically and horizontally—giving Between House its name. The design also prioritizes natural light within the constraints of closely spaced homes.”
+- **project-2.html** — Added the approved opening paragraph directly below the H1: “This project combines an urban-form study of St. Augustine, Florida, with architectural tracing exercises. The assignments involved studying urban form and practicing architectural drawing. My study examines the city’s streets, public spaces, buildings, and landscape, while the tracing exercises helped me learn to read plans and sections.”
+- **project-3.html** — Added the approved opening paragraph directly below the H1: “Street Smarts studies South Greenway Drive in Coral Gables, Florida, through site observation, field sketches, a physical model, and a final drawing. The project involved observing the street and recreating a portion of it. My work examines how the street, sidewalk, landscape, and buildings form layers that shape the experience of the place.”
+
+All complete original reflection paragraphs remain unchanged below the summaries.
+
 ### Why
 
+Each project detail page now opens with a user-approved paragraph describing its scope, site or hypothetical context, assignment and focus. The user supplied the Between House dimensions, studio-block setting and art-studio/daylight decisions and explicitly permitted paraphrasing. The user approved the Project 2 and Street Smarts drafts. No new awards or credits are claimed.
+
 ### Commit
+
+`BA6: opening summaries on project pages`
 
 
 ## Credibility and attribution
@@ -388,4 +402,4 @@ Record the user’s preference to opt out of Google-Extended’s covered AI uses
 
 SEO.md was first committed as BA6 baseline (8597806). It is tracked for the assignment and not linked from any page. The page-titles change adds /SEO.md to .vercelignore to exclude the audit from Vercel deployment. Live exclusion must be checked when the deployed site is reachable. The file is visible in the GitHub repository according to repository permissions; this is not a claim of secrecy. A robots.txt exclusion alone would not keep the audit off the website.
 
-No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page and robots.txt items have been implemented; other checklist items remain unchanged.
+No files in the 585 checkout were changed for this audit. The approved Page titles, Meta descriptions, Headings, Image alt text, About page, Project summaries and robots.txt items have been implemented; other checklist items remain unchanged.

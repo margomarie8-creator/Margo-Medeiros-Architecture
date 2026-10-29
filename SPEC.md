@@ -442,7 +442,7 @@ The home page Project 3 caption reads “Photograph” to match the Street Smart
 
 ## Project writing policy
 
-Projects 2 and 3 use all original description text exactly as written, including spelling and punctuation. Remove PDF line-wrap hyphenation only when reflowing paragraphs. Between House is explicitly permitted to remain paraphrased. Do not add generated descriptive summaries to Projects 2 or 3.
+Projects 2 and 3 use all original description text exactly as written, including spelling and punctuation. Remove PDF line-wrap hyphenation only when reflowing paragraphs. Between House is explicitly permitted to remain paraphrased. Opening summaries may be added only after explicit user approval; keep the full original reflections unchanged. The BA6 summaries below were explicitly approved.
 
 ### Original Analysis of Urban Form text
 
@@ -547,3 +547,20 @@ Use Margo Medeiros consistently as the user-approved site identity. The user app
 I’m Margo Medeiros, a first-year Bachelor of Architecture student at the University of Miami School of Architecture. Originally from Boston, I create physical models, architectural drawings, and sketches through my studio coursework in Miami.
 
 Keep the rest of the biography and architectural-interests text unchanged. The website name is approved; no independent LinkedIn profile verification has been performed.
+
+## Approved opening project summaries — BA6
+
+Place one user-approved paragraph directly below the H1 on each project detail page. The Between House brief and hypothetical studio-block site were supplied by the user, who allowed paraphrasing. The user approved the Project 2 and Street Smarts drafts. Keep all original reflection paragraphs unchanged below these new summaries.
+
+### between-house.html
+
+Between House is a Jutaku home designed for a hypothetical neighborhood, with student-designed homes grouped into blocks by studio, each with 12 students. The brief limited each home to 48 feet in height, 15 feet in width, and 48 feet in depth, while requiring it to respond cohesively to neighboring houses and follow site restrictions. I organized the house around an art studio positioned centrally, both vertically and horizontally—giving Between House its name. The design also prioritizes natural light within the constraints of closely spaced homes.
+
+### project-2.html
+
+This project combines an urban-form study of St. Augustine, Florida, with architectural tracing exercises. The assignments involved studying urban form and practicing architectural drawing. My study examines the city’s streets, public spaces, buildings, and landscape, while the tracing exercises helped me learn to read plans and sections.
+
+### project-3.html
+
+Street Smarts studies South Greenway Drive in Coral Gables, Florida, through site observation, field sketches, a physical model, and a final drawing. The project involved observing the street and recreating a portion of it. My work examines how the street, sidewalk, landscape, and buildings form layers that shape the experience of the place.
+
