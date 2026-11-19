@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Revise the capstone project story
+- **I asked for:** Update the project story with my revised wording.
+- **What changed:** Replaced the sentence about the more complex variations with the student's revised wording.
+
 ## 2026-11-19: Show the chosen-design images side by side
 - **I asked for:** Place the two chosen-design images next to each other.
 - **What changed:** Put the Variation 3 views in a two-column layout on the project page.
