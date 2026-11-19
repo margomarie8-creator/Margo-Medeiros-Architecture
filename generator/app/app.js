@@ -831,31 +831,37 @@ function saveVariation() {
   renderVariations();
 }
 
+function savedValues(v) {
+  return S.mod?.migrateVariationValues?.(v.values) ?? v.values;
+}
+
 function variationValues(v) {
+  const values = savedValues(v);
   // Lengths saved while the tool worked in other units are converted.
   const k = (v.units && v.units !== S.authUnits && FT[v.units] && FT[S.authUnits]) ? FT[v.units] / FT[S.authUnits] : 1;
   const next = {};
   let skipped = 0;
   for (const [key, def] of Object.entries(S.defs)) {
     if (!def || typeof def !== 'object') continue;
-    if (key in v.values) {
-      const raw = v.values[key];
+    if (key in values) {
+      const raw = values[key];
       next[key] = coerce(def, (k !== 1 && paramType(def) === 'length' && typeof raw === 'number') ? raw * k : raw);
     } else { next[key] = coerce(def, def.value); skipped++; }
   }
-  return { next, skipped, converted: k !== 1 };
+  return { next, skipped, converted: k !== 1, values };
 }
 
 // The values as saved, with lengths converted if the tool's units changed since.
 function shownValues(v) {
   const k = (v.units && v.units !== S.authUnits && FT[v.units] && FT[S.authUnits]) ? FT[v.units] / FT[S.authUnits] : 1;
-  if (k === 1) return v.values;
-  return Object.fromEntries(Object.entries(v.values).map(([key, val]) => [key, (S.defs[key] && paramType(S.defs[key]) === 'length' && typeof val === 'number') ? val * k : val]));
+  const values = savedValues(v);
+  if (k === 1) return values;
+  return Object.fromEntries(Object.entries(values).map(([key, val]) => [key, (S.defs[key] && paramType(S.defs[key]) === 'length' && typeof val === 'number') ? val * k : val]));
 }
 
 function applyVariation(v, featured = false) {
-  const { next, skipped, converted } = variationValues(v);
-  const extra = Object.keys(v.values).filter((k) => !(k in S.defs)).length;
+  const { next, skipped, converted, values } = variationValues(v);
+  const extra = Object.keys(values).filter((k) => !(k in S.defs)).length;
   S.values = next;
   S.activeVar = featured ? `f${v.n}` : v.n;
   buildGUI();
@@ -865,7 +871,7 @@ function applyVariation(v, featured = false) {
   if (featured) fit(); // visitors: frame the designer's version
   const who = featured ? `the designer's ${v.name}` : v.name;
   if (converted) toast(`${who} was saved when the tool used ${v.units}. Its lengths were converted.`, 4500);
-  else if (skipped || extra || v.fp !== paramFingerprint()) toast(`${who} was saved with an older version of this tool, so some settings didn't carry over.`, 4500);
+  else if (skipped || extra || (values === v.values && v.fp !== paramFingerprint())) toast(`${who} was saved with an older version of this tool, so some settings didn't carry over.`, 4500);
   else toast(`Showing ${who}`);
 }
 

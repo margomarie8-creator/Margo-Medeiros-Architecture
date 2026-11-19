@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Separate pedestal detail and engraving depth
+- **I asked for:** Split the complexity slider into independent controls.
+- **What changed:** Added Pedestal detail and Engraving depth sliders with the original 10–90% ranges. Older variations load their original complexity value into both sliders.
+
 ## 2026-11-19: Clarify how to save and download variations
 - **I asked for:** Record the fresh-eyes test and act on the feedback.
 - **What changed:** Added an explanation of what Save variation and Download PNG sheet do. Recorded the observed test and Tester A feedback in VERIFY.md.

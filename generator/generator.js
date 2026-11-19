@@ -17,8 +17,19 @@ export const parameters = {
   bowlDiameter:   { label: 'Lowest bowl diameter',   value: 18, min: 1,   max: 30, step: 0.25, type: 'length' },
   spoutHeight:    { label: 'Top spout height',       value: 1,  min: 0.5, max: 2,  step: 0.25, type: 'length' },
   pedestalHeight: { label: 'Pedestal height (target)', value: 3, min: 2,  max: 8,  step: 0.25, type: 'length' },
-  complexity:     { label: 'Design complexity (%)',  value: 45, min: 10, max: 90, step: 1 },
+  pedestalDetail: { label: 'Pedestal detail (%)',    value: 45, min: 10, max: 90, step: 1 },
+  engravingDepth: { label: 'Engraving depth (%)',    value: 45, min: 10, max: 90, step: 1 },
 };
+
+export function migrateVariationValues(values) {
+  if (!Number.isFinite(values.complexity)) return values;
+  const { complexity, ...rest } = values;
+  return {
+    ...rest,
+    pedestalDetail: rest.pedestalDetail ?? complexity,
+    engravingDepth: rest.engravingDepth ?? complexity,
+  };
+}
 
 const BASIN_RADIUS = 26;
 const LEDGE_HEIGHT = 1.5;
@@ -120,7 +131,7 @@ export function generate(p, kit) {
   const { THREE } = kit;
   const material = kit.material('#d4d3d0');
   const parts = [];
-  const detail = p.complexity / 100;
+  const pedestalDetail = p.pedestalDetail / 100;
   const heights = tierDimensions(p);
 
   function revolve(name, profile, y = 0) {
@@ -149,7 +160,7 @@ export function generate(p, kit) {
     for (let point = 0; point <= 24; point++) {
       const t = point / 24;
       const curve = 0.72 - 0.20 * Math.sin(Math.PI * t);
-      const molding = detail * 0.12 * Math.cos(6 * Math.PI * t);
+      const molding = pedestalDetail * 0.12 * Math.cos(6 * Math.PI * t);
       profile.push([pedestalRadius * (curve + molding), stem * (0.12 + 0.76 * t)]);
     }
     profile.push([pedestalRadius * 0.86, stem], [0, stem]);
@@ -158,7 +169,7 @@ export function generate(p, kit) {
 
     // Round to an even repeat count so all tiers share half-turn symmetry.
     const repeats = 2 * Math.round(TOP_BOWL_REPEATS * radius / (2 * topRadius));
-    const bowlMesh = new THREE.Mesh(engravedBowl(THREE, radius, bowl, detail, repeats), material);
+    const bowlMesh = new THREE.Mesh(engravedBowl(THREE, radius, bowl, p.engravingDepth / 100, repeats), material);
     bowlMesh.position.y = y;
     bowlMesh.name = 'bowl_' + (tier + 1);
     parts.push(bowlMesh);
