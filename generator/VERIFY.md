@@ -23,15 +23,16 @@ Run your BA2 reviewer or your BA3 jury on the design your tool makes. It can't o
 
 ## 3. Fresh eyes test
 By **Mon Nov 16**, have one person outside this class use your tool: ideally another architecture student, otherwise a friend or family member. In person or on a video call. Write "Tester A" here, never a name (this file goes public). Their name goes in your Capstone_Submission.docx, with their OK.
-- **The task I gave them** (from my SPEC, without explaining the tool):
-- **What they did in 10 minutes** (I watched and didn't help):
-- **Where they got stuck or surprised:**
+- **Tester:** Tester A.
+- **The task I gave them:** “Make a fountain that you think fits the best in this area with the surrounding buildings.”
+- **What they did in 10 minutes:** Tester A first moved the sliders rapidly. She spent about 90 seconds figuring out zoom and rotation, then read the slider labels, found a useful perspective, and refined the fountain. At about seven minutes she had a design she liked. I saved the variation and downloaded the sheet for her.
+- **Where they got stuck or surprised:** She hesitated at top spout height and spent time finding the right design complexity. She did not know to save her design or what downloading the sheet would produce.
 - **Their answers:**
-  - What was confusing?
-  - What did you try to do that the tool wouldn't let you?
-  - If this were your project, what one thing would you change?
-- **What I changed because of it** (and the CHANGELOG entry):
-- **What I didn't change, and why:**
+  - **What was confusing?** She did not understand the Context or Export sections. She had to reread the warning a few times.
+  - **What did you try to do that the tool wouldn't let you?** She wanted to change the bowl shape.
+  - **If this were your project, what one thing would you change?** She would give the pedestal detail and engraving separate controls.
+- **What I changed because of it:** Added a short instruction explaining what Save variation and Download PNG sheet do. See “Clarify how to save and download variations” in CHANGELOG.md. A follow-up usability check has not been recorded.
+- **What I didn't change, and why:** The bowl shape and combined complexity control were left for a separate design decision because adding those controls would change how the generator works.
 
 ## What this taught me about trusting the tool
 _Two or three sentences._

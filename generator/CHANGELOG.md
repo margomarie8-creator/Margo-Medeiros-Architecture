@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Clarify how to save and download variations
+- **I asked for:** Record the fresh-eyes test and act on the feedback.
+- **What changed:** Added an explanation of what Save variation and Download PNG sheet do. Recorded the observed test and Tester A feedback in VERIFY.md.
+
 ## 2026-11-19: Add the capstone project introduction
 - **I asked for:** Publish my wording about the ARC 585 tool and its origins in the ARC 101 master plan.
 - **What changed:** Replaced the project page introduction with the final paragraph supplied by the student, verbatim.
