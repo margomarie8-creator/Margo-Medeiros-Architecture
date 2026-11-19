@@ -28,3 +28,5 @@ html{zoom:.8}
 .gallery .street-cover,.project-card .street-cover{object-fit:cover;object-position:right center}.case-study .street-cover{aspect-ratio:3/4;object-fit:cover;object-position:right center}
 
 .map-frame .drawing-preview,.project-card .map-frame .drawing-preview{transform:none;object-position:center}.gallery .street-cover,.project-card .street-cover,.case-study .street-cover{object-position:center}
+.fountain-tool{display:block;width:100%;height:80vh;min-height:480px;border:1px solid #d9d9d9}
+.case-study img.fountain-chosen{max-width:640px}

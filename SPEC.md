@@ -31,7 +31,7 @@ index.html must be located at the top level of the website folder.
 
 All internal navigation links must use relative paths.
 
-Every page except login.html requires authentication.
+The login and ARC 585 capstone pages are public. The other portfolio pages require authentication.
 
 ## Page 1: Log-In and Sign-Up
 
@@ -589,3 +589,7 @@ Serve the user-supplied google5592fedfbe394a61.html unchanged at the website roo
 ## Public-page sitemap
 
 Serve sitemap.xml at the website root. Include only login.html, the public content page under the retained login-gate decision. Exclude protected portfolio pages, the Google verification resource and the internal SEO audit. Add the absolute sitemap URL to robots.txt without changing the Google-Extended rule. Submit the sitemap to the matching verified Search Console property when access is available. Do not claim that submission removes login barriers or guarantees indexing.
+
+## ARC 585 Capstone
+
+The Grand Park Fountain project page and its interactive generator are public so course reviewers can open them directly. Link the project from the Projects gallery. The page uses the portfolio design, embeds the tool, links to its full-screen page, and presents the variations sheet. Other portfolio pages retain the existing authentication requirement.
