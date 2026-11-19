@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Show the chosen-design images side by side
+- **I asked for:** Place the two chosen-design images next to each other.
+- **What changed:** Put the Variation 3 views in a two-column layout on the project page.
+
 ## 2026-11-19: Expand the capstone project story
 - **I asked for:** Update the project story with my explanation of why I chose Variation 3.
 - **What changed:** Published the expanded student-written story verbatim.
