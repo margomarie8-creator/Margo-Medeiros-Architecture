@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Add the capstone project introduction
+- **I asked for:** Publish my wording about the ARC 585 tool and its origins in the ARC 101 master plan.
+- **What changed:** Replaced the project page introduction with the final paragraph supplied by the student, verbatim.
+
 ## 2026-11-19: Keep uploaded context in place of the park
 - **I asked for:** Hide the bundled park when another context model is uploaded.
 - **What changed:** A successful import replaces the park. The bundled park loader checks again before displaying its model so a slow download cannot overwrite an uploaded context.

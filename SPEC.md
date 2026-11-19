@@ -593,3 +593,5 @@ Serve sitemap.xml at the website root. Include only login.html, the public conte
 ## ARC 585 Capstone
 
 The Grand Park Fountain project page and its interactive generator are public so course reviewers can open them directly. Link the project from the Projects gallery. The page uses the portfolio design, embeds the tool, links to its full-screen page, and presents the variations sheet. Other portfolio pages retain the existing authentication requirement.
+
+Project introduction: This Capstone Project is a tool I coded for my ARC 585 class based on the Master Plan project for ARC 101. The plan I created featured a large fountain in the center of the Grand Park, but it took me a while to figure out how I wanted the fountain to look. Thus, I created this tool to help me design a fountain that looked visually appealing while fitting in with its surroundings.
