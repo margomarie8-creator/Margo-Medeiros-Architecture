@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Add a close-up of the chosen fountain
+- **I asked for:** Add my chosen design photo to the project page.
+- **What changed:** Added the supplied engraving and pedestal close-up alongside the existing Variation 3 image.
+
 ## 2026-11-19: Separate pedestal detail and engraving depth
 - **I asked for:** Split the complexity slider into independent controls.
 - **What changed:** Added Pedestal detail and Engraving depth sliders with the original 10–90% ranges. Older variations load their original complexity value into both sliders.
