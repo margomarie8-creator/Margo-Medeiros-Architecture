@@ -33,3 +33,4 @@ html{zoom:.8}
 
 .fountain-image-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,3vw,32px);align-items:start}
 .fountain-image-pair .drawing-sheet{margin-bottom:0}
+.case-introduction.fountain-story>p:not(.case-label){max-width:90ch}

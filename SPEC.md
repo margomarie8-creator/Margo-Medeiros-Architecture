@@ -599,3 +599,5 @@ Project introduction: This Capstone Project is a tool I coded for my ARC 585 cla
 The chosen design includes the supplied close-up of Variation 3 showing the three bowls and engraved bands.
 
 The two chosen-design images appear side by side.
+
+The capstone story uses a wider text column on desktop.
