@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Expand the capstone project story
+- **I asked for:** Update the project story with my explanation of why I chose Variation 3.
+- **What changed:** Published the expanded student-written story verbatim.
+
 ## 2026-11-19: Add a close-up of the chosen fountain
 - **I asked for:** Add my chosen design photo to the project page.
 - **What changed:** Added the supplied engraving and pedestal close-up alongside the existing Variation 3 image.
