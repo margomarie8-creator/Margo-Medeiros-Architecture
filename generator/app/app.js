@@ -1129,8 +1129,13 @@ async function loadDefaultContext() {
     const response = await fetch(context.url);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const file = new File([await response.blob()], name);
-    if (S.ctx || pendingFile) return;
-    placeContext(await readModel(file), name, {
+    if (S.ctx) return;
+    const obj = await readModel(file);
+    if (S.ctx) {
+      disposeTree(obj);
+      return;
+    }
+    placeContext(obj, name, {
       fileUnits: context.units,
       up: context.up,
       frameContext: false,

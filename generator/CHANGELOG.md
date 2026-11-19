@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Keep uploaded context in place of the park
+- **I asked for:** Hide the bundled park when another context model is uploaded.
+- **What changed:** A successful import replaces the park. The bundled park loader checks again before displaying its model so a slow download cannot overwrite an uploaded context.
+
 ## 2026-11-19: Make the designer's variations collapsible
 - **I asked for:** Make the designer's variations collapsible.
 - **What changed:** The variations card opens by default and can be collapsed and reopened from its heading.
