@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Clarify that model dimensions include paths
+- **I asked for:** Specify that the overall width and depth include the paths.
+- **What changed:** Updated both labels in the Model panel. The measurements still use the generated geometry.
+
 ## 2026-11-19: Revise the capstone project story
 - **I asked for:** Update the project story with my revised wording.
 - **What changed:** Replaced the sentence about the more complex variations with the student's revised wording.

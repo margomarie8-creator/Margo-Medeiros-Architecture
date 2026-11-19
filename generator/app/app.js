@@ -614,8 +614,8 @@ function updateStats(p) {
   };
   const b = modelBox();
   const s = b.getSize(new THREE.Vector3());
-  add('Width (x)', fmtLen(s.x));
-  add('Depth (z)', fmtLen(s.z));
+  add('Width incl. paths (x)', fmtLen(s.x));
+  add('Depth incl. paths (z)', fmtLen(s.z));
   add('Height (y)', fmtLen(s.y));
   let parts = 0;
   modelGroup.traverse((o) => { if (o.isMesh) parts += o.isInstancedMesh ? o.count : 1; });
