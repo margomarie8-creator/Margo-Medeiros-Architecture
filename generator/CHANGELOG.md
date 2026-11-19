@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Make the designer's variations collapsible
+- **I asked for:** Make the designer's variations collapsible.
+- **What changed:** The variations card opens by default and can be collapsed and reopened from its heading.
+
 ## 2026-11-19: Put the designer's variations below Model
 - **I asked for:** Put the designer's variations below Use the tool and Model.
 - **What changed:** Moved the designer's variations card directly below Model in the tool panel.

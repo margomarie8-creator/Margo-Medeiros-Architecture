@@ -147,3 +147,7 @@ dialog menu { display: flex; justify-content: flex-end; gap: 8px; padding: 0; ma
 
 .byline { margin: 2px 0 0; color: var(--muted); font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .byline a { color: var(--accent); }
+
+#featCard > summary { cursor: pointer; }
+#featCard > summary h2 { display: inline; }
+#featCard[open] > summary { margin-bottom: 8px; }
