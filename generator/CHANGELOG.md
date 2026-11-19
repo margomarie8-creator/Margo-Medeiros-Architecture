@@ -12,6 +12,10 @@ Format:
 
 ---
 
+## 2026-11-19: Put the designer's variations below Model
+- **I asked for:** Put the designer's variations below Use the tool and Model.
+- **What changed:** Moved the designer's variations card directly below Model in the tool panel.
+
 ## 2026-11-19: Integrate the capstone into the portfolio
 - **I asked for:** Publish the fountain on my existing architecture website for class.
 - **What changed:** Added the public capstone page, embedded the tool with its park context, linked it from the portfolio, and included six saved variations, the sheet, and Variation 3.
